@@ -1,0 +1,14 @@
+$font-stack: Arial,Helvetica,sans-serif;
+
+$primary-color: green;
+$content-color: #eee;
+
+body {
+    font: 100% $font-stack;
+    color: $content-color;
+}
+
+header,
+footer {
+    background-color: $primary-color;
+}

@@ -1,3 +1,7 @@
+body {
+  font: 100% Arial, Helvetica, sans-serif;
+  color: #eee; }
 
-
-/*# sourceMappingURL=style.css.map */
+header,
+footer {
+  background-color: green; }
