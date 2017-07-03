@@ -1,14 +1,88 @@
-$font-stack: Arial,Helvetica,sans-serif;
+$font-stack: Arial,
+Helvetica,
+sans-serif;
+$primary-color: white;
+$content-color: black;
+$background-color: black;
+$link-color: red;
+$radius: 5px;
+@mixin autoMargin() {
+    margin: 0 auto;
+    width: 60%;
+}
 
-$primary-color: green;
-$content-color: #eee;
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
 
 body {
     font: 100% $font-stack;
     color: $content-color;
+    background: $background-color;
+    a {
+        color: $link-color;
+    }
 }
 
 header,
 footer {
     background-color: $primary-color;
+}
+
+.wrapper {
+    @include autoMargin();
+}
+
+h1 {
+    display: inline-block;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    em {
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+header {
+    form {
+        @include autoMargin();
+        p input {
+            width: 90%;
+            height: 30px;
+            border: 1px solid blue;
+            @include border-radius($radius);
+        }
+    }
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            position: relative;
+            top: 0;
+            left: 100%;
+        }
+    }
+}
+
+#content {
+    ul {
+        li {
+            display: inline-block;
+        }
+    }
 }

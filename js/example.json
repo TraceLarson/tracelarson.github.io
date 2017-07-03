@@ -1,0 +1,2691 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2017 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2017 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>",
+  "etag": "a31e4f87fa1b1fde059b248717b0f41be96733f9",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 311,
+    "count": 20,
+    "results": [
+      {
+        "id": 38041,
+        "digitalId": 0,
+        "title": "X-Men (2010)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": null,
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/38041",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/38041/x-men_2010?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9906",
+          "name": "X-Men (2010 - 2013)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/38041/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/38041/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/38041/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106732",
+              "name": "cover from X-Men #0",
+              "type": "cover"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/38041/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 52943,
+        "digitalId": 37757,
+        "title": "X-Men (2013) #26",
+        "issueNumber": 26,
+        "variantDescription": "",
+        "description": "The conclusion of MS. MARVEL creator G. Willow Wilson's first X-Men tale, \"THE BURNING WORLD\"! Investigating mysterious natural phenomena in the Blackrock Desert, the X-Men have discovered something monstrous that has ties to their own past. Reliving history, can the X-Men find a way to win the day this time around or are they doomed to make the same painful mistakes?",
+        "modified": "2015-04-27T16:31:48-0400",
+        "isbn": "",
+        "upc": "75960607924702611",
+        "diamondCode": "FEB150836",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The conclusion of MS. MARVEL creator G. Willow Wilson's first X-Men tale, \"THE BURNING WORLD\"! Investigating mysterious natural phenomena in the Blackrock Desert, the X-Men have discovered something monstrous that has ties to their own past. Reliving history, can the X-Men find a way to win the day this time around or are they doomed to make the same painful mistakes?"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/52943",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/52943/x-men_2013_26?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-26/digital-comic/37757?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=37757&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2015-04-29T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2015-04-15T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-10-26T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2015-04-24T12:24:17-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/30/553e9ad73acc1",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/30/553e9ad73acc1",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/54d3c3b044f5d",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52943/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+              "name": "Roland Boschi",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10329",
+              "name": "G. Willow Wilson",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52943/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52943/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117463",
+              "name": "cover from X-Men (2013) #26",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117464",
+              "name": "story from X-Men (2013) #26",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52943/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 52942,
+        "digitalId": 36863,
+        "title": "X-Men (2013) #25",
+        "issueNumber": 25,
+        "variantDescription": "",
+        "description": "As natural phenomena tear the Black Rock Desert apart-with Storm stuck deep in the Earth at the epicenter-the X-Men race to find answers and save their teammate! And while some of the team follow a lead that takes them to the Inhuman Queen MEDUSA, Psylocke makes an EXPLOSIVE discovery of her own... ",
+        "modified": "2015-03-03T13:13:26-0500",
+        "isbn": "",
+        "upc": "75960607924702511",
+        "diamondCode": "JAN150876",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "As natural phenomena tear the Black Rock Desert apart-with Storm stuck deep in the Earth at the epicenter-the X-Men race to find answers and save their teammate! And while some of the team follow a lead that takes them to the Inhuman Queen MEDUSA, Psylocke makes an EXPLOSIVE discovery of her own... "
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/52942",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/52942/x-men_2013_25?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-25/digital-comic/36863?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=36863&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/36863?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/53101",
+            "name": "X-Men (2013) #25 (Cheung Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2015-03-04T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2015-02-18T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-09-07T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2015-03-04T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/54f5f67196a0a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/54f5f67196a0a",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/f0/54ad500f101ba",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52942/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+              "name": "Roland Boschi",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8825",
+              "name": "Jorge Molina",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10329",
+              "name": "G. Willow Wilson",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52942/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52942/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117461",
+              "name": "cover from X-Men (2013) #25",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117462",
+              "name": "story from X-Men (2013) #25",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52942/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 53101,
+        "digitalId": 0,
+        "title": "X-Men (2013) #25 (Cheung Variant)",
+        "issueNumber": 25,
+        "variantDescription": "Cheung Variant",
+        "description": "- As natural phenomena tear the Black Rock Desert apart-with Storm stuck deep in the Earth at the epicenter-the X-Men race to find answers and save their teammate! - And while some of the team follow a lead that takes them to the Inhuman Queen MEDUSA, Psylocke makes an EXPLOSIVE discovery of her own... ",
+        "modified": "2015-03-03T13:22:34-0500",
+        "isbn": "",
+        "upc": "75960607924702521",
+        "diamondCode": "JAN150877",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- As natural phenomena tear the Black Rock Desert apart-with Storm stuck deep in the Earth at the epicenter-the X-Men race to find answers and save their teammate! - And while some of the team follow a lead that takes them to the Inhuman Queen MEDUSA, Psylocke makes an EXPLOSIVE discovery of her own... "
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/53101",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/53101/x-men_2013_25_cheung_variant/cheung_variant?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/52942",
+            "name": "X-Men (2013) #25"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2015-03-04T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2015-02-18T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/20/54f5fa46e926f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/20/54f5fa46e926f",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/53101/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+              "name": "Roland Boschi",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10329",
+              "name": "G. Willow Wilson",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/53101/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/53101/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117792",
+              "name": "cover from X-Men (2013) #25 (TBD ARTIST VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117793",
+              "name": "story from X-Men (2013) #25 (TBD ARTIST VARIANT)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/53101/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 52941,
+        "digitalId": 36613,
+        "title": "X-Men (2013) #24",
+        "issueNumber": 24,
+        "variantDescription": "",
+        "description": "Trapped deep underground in the sinkhole that mysteriously appeared in the middle of the Black Rock Desert, STORM battles her claustrophobia while trying to find answers. Meanwhile, her teammates above ground discover that the phenomenon has ties to old enemies...",
+        "modified": "2015-02-03T10:28:35-0500",
+        "isbn": "",
+        "upc": "75960607924702411",
+        "diamondCode": "DEC140938",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Trapped deep underground in the sinkhole that mysteriously appeared in the middle of the Black Rock Desert, STORM battles her claustrophobia while trying to find answers. Meanwhile, her teammates above ground discover that the phenomenon has ties to old enemies..."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/52941",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/52941/x-men_2013_24?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-24/digital-comic/36613?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=36613&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/36613?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2015-02-11T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2015-01-28T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-08-10T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2015-02-11T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/80/54d0e712382f8",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/80/54d0e712382f8",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/e0/54a307c2460a9",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52941/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9371",
+              "name": "Roland Boschi",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10329",
+              "name": "G. Willow Wilson",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52941/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52941/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117459",
+              "name": "cover from X-Men (2013) #24",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117460",
+              "name": "story from X-Men (2013) #24",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52941/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 52940,
+        "digitalId": 36178,
+        "title": "X-Men (2013) #23",
+        "issueNumber": 23,
+        "variantDescription": "",
+        "description": "\"THE BURNING WORLD\" PART 1!\n- The start of a brand new story penned by MS. MARVEL creator G. WILLOW WILSON!\n- When a sinkhole appears under mysterious circumstances in the middle of the Black Rock Desert, the X-Men go to investigate...\n- But little do they suspect that the phenomenon has connections to old allies...and enemies!\n",
+        "modified": "2015-07-21T11:47:59-0400",
+        "isbn": "",
+        "upc": "75960607924702311",
+        "diamondCode": "NOV140833",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "\"THE BURNING WORLD\" PART 1!\n- The start of a brand new story penned by MS. MARVEL creator G. WILLOW WILSON!\n- When a sinkhole appears under mysterious circumstances in the middle of the Black Rock Desert, the X-Men go to investigate...\n- But little do they suspect that the phenomenon has connections to old allies...and enemies!\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/52940",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/52940/x-men_2013_23?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-23/digital-comic/36178?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=36178&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/36178?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2015-01-07T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-12-17T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-07-13T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2015-01-07T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/54a2f7c57de4c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/54a2f7c57de4c",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/20/54821c69348e7",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52940/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10329",
+              "name": "G. Willow Wilson",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52940/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52940/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117457",
+              "name": "cover from X-Men (2013) #23",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117458",
+              "name": "story from X-Men (2013) #23",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52940/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 52939,
+        "digitalId": 35834,
+        "title": "X-Men (2013) #22",
+        "issueNumber": 22,
+        "variantDescription": "",
+        "description": "\"EXOGENOUS\" Conclusion! \"Arrow\" executive producer Marc Guggenheim wraps up his run on this critically acclaimed arc of X-MEN! Time is running out as the X-Men race to save the Earth from the alien monstrosities that have emerged from the depths of space! But will Rachel Grey forsake her teammates to get revenge on those responsible for the death of her family?\n",
+        "modified": "2014-12-09T11:15:51-0500",
+        "isbn": "",
+        "upc": "75960607924702211",
+        "diamondCode": "OCT140896",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "\"EXOGENOUS\" Conclusion! \"Arrow\" executive producer Marc Guggenheim wraps up his run on this critically acclaimed arc of X-MEN! Time is running out as the X-Men race to save the Earth from the alien monstrosities that have emerged from the depths of space! But will Rachel Grey forsake her teammates to get revenge on those responsible for the death of her family?\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/52939",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/52939/x-men_2013_22?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-22/digital-comic/35834?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=35834&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/35834?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-12-10T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-11-24T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-07-17T12:27:31-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-12-10T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/54871eb881935",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/30/54871eb881935",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/03/5466617d72b80",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52939/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11904",
+              "name": "Dexter Soy",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8584",
+              "name": "Harvey Tolibao",
+              "role": "artist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52939/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52939/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117455",
+              "name": "cover from X-Men (2013) #22",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/117456",
+              "name": "story from X-Men (2013) #22",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/52939/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 51048,
+        "digitalId": 35379,
+        "title": "X-Men (2013) #21",
+        "issueNumber": 21,
+        "variantDescription": "",
+        "description": "\"EXOGENOUS\" Part 4 of 5! - As the X-Men race to find the origins of the threat that has emerged from deep space, they discover that there's a larger conspiracy at work...one that may have its roots close to home! - What are Agent Brand's ties to the mysterious Providian order? - How could Deathbird's secret upset the balance of the cosmos? - And what does the third Summers brother-and Rachel Grey's uncle-Vulcan have to do with it all? ",
+        "modified": "2014-11-25T14:54:13-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "\"EXOGENOUS\" Part 4 of 5! - As the X-Men race to find the origins of the threat that has emerged from deep space, they discover that there's a larger conspiracy at work...one that may have its roots close to home! - What are Agent Brand's ties to the mysterious Providian order? - How could Deathbird's secret upset the balance of the cosmos? - And what does the third Summers brother-and Rachel Grey's uncle-Vulcan have to do with it all? "
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/51048",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/51048/x-men_2013_21?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-21/digital-comic/35379?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=35379&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/35379?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-11-05T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-10-13T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-05-04T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-11-05T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/5447fe4c013d3",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/5447fe4c013d3",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/51048/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11904",
+              "name": "Dexter Soy",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8584",
+              "name": "Harvey Tolibao",
+              "role": "artist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/51048/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/51048/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113953",
+              "name": "X-MEN 21 (WITH DIGITAL CODE)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113954",
+              "name": "X-MEN 21 (WITH DIGITAL CODE)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/51048/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 50964,
+        "digitalId": 34965,
+        "title": "X-Men (2013) #20",
+        "issueNumber": 20,
+        "variantDescription": "",
+        "description": "- In the depths of space, the X-Men have encountered the threat terrorizing S.W.O.R.D.: monstrosities called the \"Genespliced\"-creatures engineered from the fiercest alien races across the galaxy.\n- But how can the X-Men hope to stop an alien horde?\n- And does S.W.O.R.D.'s own leader, Abigail Brand, know more about the Genespliced than she's letting on?\n",
+        "modified": "2014-11-25T10:30:58-0500",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- In the depths of space, the X-Men have encountered the threat terrorizing S.W.O.R.D.: monstrosities called the \"Genespliced\"-creatures engineered from the fiercest alien races across the galaxy.\n- But how can the X-Men hope to stop an alien horde?\n- And does S.W.O.R.D.'s own leader, Abigail Brand, know more about the Genespliced than she's letting on?\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/50964",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/50964/x-men_2013_20?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-20/digital-comic/34965?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34965&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34965?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-10-01T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-04-06T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-10-01T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/20/542459b486efe",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/20/542459b486efe",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/60/5417496fd8f27",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50964/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11904",
+              "name": "Dexter Soy",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8584",
+              "name": "Harvey Tolibao",
+              "role": "artist"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50964/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50964/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113829",
+              "name": "X-Men #20",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113830",
+              "name": "X-Men #20",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50964/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48692,
+        "digitalId": 34753,
+        "title": "X-Men (2013) #19",
+        "issueNumber": 19,
+        "variantDescription": "",
+        "description": "- With S.W.O.R.D.'s orbital headquarters, the Peak, literally hanging in the balance, the X-Men race into deep space to find the source of the new threat that's emerged from the abyss.\n- But little do they suspect that lurking in the shadows of the Acanti Skunkworks, a conspiracy is waiting to entangle them...\n- And what's worse is that it's a conspiracy that has connections to the deaths of Rachel Grey's family!\n",
+        "modified": "2014-11-21T13:25:54-0500",
+        "isbn": "",
+        "upc": "75960607924701911",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- With S.W.O.R.D.'s orbital headquarters, the Peak, literally hanging in the balance, the X-Men race into deep space to find the source of the new threat that's emerged from the abyss.\n- But little do they suspect that lurking in the shadows of the Acanti Skunkworks, a conspiracy is waiting to entangle them...\n- And what's worse is that it's a conspiracy that has connections to the deaths of Rachel Grey's family!\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48692",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48692/x-men_2013_19?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-19/digital-comic/34753?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34753&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34753?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-09-03T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-08-20T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-03-09T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-09-03T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/53f76b297c0c4",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/53f76b297c0c4",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48692/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8584",
+              "name": "Harvey Tolibao",
+              "role": "artist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48692/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48692/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109479",
+              "name": "cover from X-Men (2013) #19",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109480",
+              "name": "story from X-Men (2013) #19",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48692/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48691,
+        "digitalId": 34580,
+        "title": "X-Men (2013) #18",
+        "issueNumber": 18,
+        "variantDescription": "",
+        "description": "FROM THE EXECUTIVE PRODUCER OF TV's \"ARROW\"! NEW CREATIVE TEAM! And a new mission for the first all-female team of X-MEN. S.W.O.R.D. is Earth's premiere counterterrorism and intelligence agency when it comes to dealing with extraterrestrial threats. But when the ferocious Shi'Ar warrior Deathbird lands on their doorstep at the brink of death, S.W.O.R.D. calls in the X-MEN to investigate! But are the X-Men equipped to handle the horrific new threat that's emerged from the edge of space?\n",
+        "modified": "2014-11-14T13:17:19-0500",
+        "isbn": "",
+        "upc": "75960607924701811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "FROM THE EXECUTIVE PRODUCER OF TV's \"ARROW\"! NEW CREATIVE TEAM! And a new mission for the first all-female team of X-MEN. S.W.O.R.D. is Earth's premiere counterterrorism and intelligence agency when it comes to dealing with extraterrestrial threats. But when the ferocious Shi'Ar warrior Deathbird lands on their doorstep at the brink of death, S.W.O.R.D. calls in the X-MEN to investigate! But are the X-Men equipped to handle the horrific new threat that's emerged from the edge of space?\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48691",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48691/x-men_2013_18?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-18/digital-comic/34580?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34580&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34580?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-08-13T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-07-21T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-02-16T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-08-13T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/d0/537116169ee8c",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/d0/537116169ee8c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48691/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/644",
+              "name": "Marc Guggenheim",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+              "name": "Jeanine Schaefer",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11904",
+              "name": "Dexter Soy",
+              "role": "penciller"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48691/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48691/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109477",
+              "name": "cover from X-Men (2013) #18",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109478",
+              "name": "story from X-Men (2013) #18",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48691/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48690,
+        "digitalId": 34121,
+        "title": "X-Men (2013) #17",
+        "issueNumber": 17,
+        "variantDescription": "",
+        "description": "The Future has come calling&hellip;and he wants his son Shogo back!\nBut will Jubilee and the X-Men let their bouncing baby boy go without a fight?\nSpoiler alert: HELL NO!",
+        "modified": "2014-11-14T13:16:44-0500",
+        "isbn": "",
+        "upc": "75960607924701711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Future has come calling&hellip;and he wants his son Shogo back!\nBut will Jubilee and the X-Men let their bouncing baby boy go without a fight?\nSpoiler alert: HELL NO!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48690",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48690/x-men_2013_17?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-17/digital-comic/34121?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34121&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34121?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-07-30T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-07-07T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-01-26T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-07-30T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/53ceb6c654d7a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/53ceb6c654d7a",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48690/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11798",
+              "name": "Matteo Buffagni",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48690/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48690/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109475",
+              "name": "cover from X-Men (2013) #17",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109476",
+              "name": "story from X-Men (2013) #17",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48690/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48689,
+        "digitalId": 34159,
+        "title": "X-Men (2013) #16",
+        "issueNumber": 16,
+        "variantDescription": "",
+        "description": "The Future has come calling&hellip;and he wants his son Shogo back!\nBut will Jubilee and the X-Men let their bouncing baby boy go without a fight?\nSpoiler alert: HELL NO!",
+        "modified": "2015-01-16T11:00:26-0500",
+        "isbn": "",
+        "upc": "75960607924701611",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Future has come calling&hellip;and he wants his son Shogo back!\nBut will Jubilee and the X-Men let their bouncing baby boy go without a fight?\nSpoiler alert: HELL NO!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48689",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48689/x-men_2013_16?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-16/digital-comic/34159?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34159&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34159?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-07-16T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-06-23T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-01-19T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-07-16T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/53bae8bb63970",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/53bae8bb63970",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/536d0a39d0d64",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48689/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11798",
+              "name": "Matteo Buffagni",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48689/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48689/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109473",
+              "name": "cover from X-Men (2013) #16",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109474",
+              "name": "story from X-Men (2013) #16",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48689/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48688,
+        "digitalId": 33873,
+        "title": "X-Men (2013) #15",
+        "issueNumber": 15,
+        "variantDescription": "",
+        "description": "- A generational saga/war unfolds... mothers and daughters, fathers and sons, and one poor mall rat named Jubilee caught in the middle..\n- The JGS has always been a school. Is it time to become an army? Or will their differences prove their greatest asset?\n",
+        "modified": "2014-07-16T15:28:20-0400",
+        "isbn": "",
+        "upc": "75960607924701511",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- A generational saga/war unfolds... mothers and daughters, fathers and sons, and one poor mall rat named Jubilee caught in the middle..\n- The JGS has always been a school. Is it time to become an army? Or will their differences prove their greatest asset?\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48688",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48688/x-men_2013_15?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-15/digital-comic/33873?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33873&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33873?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-06-18T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-06-04T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-12-22T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-06-18T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/539721ad23f2f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/539721ad23f2f",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48688/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/757",
+              "name": "Clay Mann",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48688/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48688/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109471",
+              "name": "cover from X-Men (2013) #15",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109472",
+              "name": "story from X-Men (2013) #15",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48688/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48687,
+        "digitalId": 33948,
+        "title": "X-Men (2013) #14",
+        "issueNumber": 14,
+        "variantDescription": "",
+        "description": "- The Jean Grey School is under attack, leaving a young X-Man dead on the school's front lawn.\n- Jubilee's worst nightmare has come to pass... and the future's being rewritten.\n- Clay Mann (GAMBIT) joins Brian Wood for a terrifying new chapter in X-Men history!\n",
+        "modified": "2014-07-14T14:19:37-0400",
+        "isbn": "",
+        "upc": "75960607924701411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- The Jean Grey School is under attack, leaving a young X-Man dead on the school's front lawn.\n- Jubilee's worst nightmare has come to pass... and the future's being rewritten.\n- Clay Mann (GAMBIT) joins Brian Wood for a terrifying new chapter in X-Men history!\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48687",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48687/x-men_2013_14?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-14/digital-comic/33948?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33948&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33948?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-05-21T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-05-07T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-11-17T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-05-21T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/0/03/536d06120568a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/0/03/536d06120568a",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48687/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/757",
+              "name": "Clay Mann",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48687/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48687/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109469",
+              "name": "cover from X-Men (2013) #14",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109470",
+              "name": "story from X-Men (2013) #14",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48687/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48686,
+        "digitalId": 33534,
+        "title": "X-Men (2013) #13",
+        "issueNumber": 13,
+        "variantDescription": "",
+        "description": "BLOODLINE PART 1\n- Jubilee is haunted by Shogo's past... or is it his future?!\n",
+        "modified": "2014-04-14T15:01:24-0400",
+        "isbn": "",
+        "upc": "75960607924701311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "BLOODLINE PART 1\n- Jubilee is haunted by Shogo's past... or is it his future?!\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48686",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48686/x-men_2013_13?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-13/digital-comic/33534?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33534&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33534?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50723",
+            "name": "X-Men (2013) #13 (Jones Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-04-16T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-04-02T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-10-20T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-04-16T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/534c2e7e25f6f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/534c2e7e25f6f",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/40/52d83f2987ad8",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48686/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/757",
+              "name": "Clay Mann",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48686/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48686/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109467",
+              "name": "cover from X-Men (2013) #13",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109468",
+              "name": "story from X-Men (2013) #13",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48686/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 50723,
+        "digitalId": 0,
+        "title": "X-Men (2013) #13 (Jones Variant)",
+        "issueNumber": 13,
+        "variantDescription": "Jones Variant",
+        "description": "BLOODLINE PART 1\n- Jubilee is haunted by Shogo's past... or is it his future?!\n",
+        "modified": "2014-04-14T15:17:48-0400",
+        "isbn": "",
+        "upc": "75960607924701321",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "BLOODLINE PART 1\n- Jubilee is haunted by Shogo's past... or is it his future?!\n"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/50723",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/50723/x-men_2013_13_jones_variant/jones_variant?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/48686",
+            "name": "X-Men (2013) #13"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-04-16T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-04-02T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/a0/534c32c5c50da",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/a0/534c32c5c50da",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50723/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/757",
+              "name": "Clay Mann",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50723/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50723/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113514",
+              "name": "cover from X-Men (2013) #13 (TBD ARTIST VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/113515",
+              "name": "story from X-Men (2013) #13 (TBD ARTIST VARIANT)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50723/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 48685,
+        "digitalId": 33437,
+        "title": "X-Men (2013) #12",
+        "issueNumber": 12,
+        "variantDescription": "",
+        "description": "\n\n\n\n<ul><li>The Sisterhood is fully formed, and the battle for leadership begins!</li><li>The X-Men must choose&hellip;take down the Arkea Sentinels or go after the Sisterhood.</li></ul>",
+        "modified": "2014-07-11T14:09:56-0400",
+        "isbn": "",
+        "upc": "75960607924701211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "\n\n\n\n<ul><li>The Sisterhood is fully formed, and the battle for leadership begins!</li><li>The X-Men must choose&hellip;take down the Arkea Sentinels or go after the Sisterhood.</li></ul>"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/48685",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/48685/x-men_2013_12?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/X-Men-12/digital-comic/33437?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33437&utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33437?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50074",
+            "name": "X-Men (2013) #12 (Jones Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-03-19T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-03-05T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-09-22T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-03-19T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 1.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/d0/531e122307d65",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/d0/531e122307d65",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/d0/52ab4ecd8c599",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48685/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11575",
+              "name": "Kris Anka",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48685/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48685/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109465",
+              "name": "cover from X-Men (2013) #12",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/109466",
+              "name": "story from X-Men (2013) #12",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/48685/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 50074,
+        "digitalId": 0,
+        "title": "X-Men (2013) #12 (Jones Variant)",
+        "issueNumber": 12,
+        "variantDescription": "Jones Variant",
+        "description": "\n\n\n\n<ul><li>The Sisterhood is fully formed, and the battle for leadership begins!</li><li>The X-Men must choose&hellip;take down the Arkea Sentinels or go after the Sisterhood.</li></ul>",
+        "modified": "2014-03-10T16:05:46-0400",
+        "isbn": "",
+        "upc": "75960607924701221",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "\n\n\n\n<ul><li>The Sisterhood is fully formed, and the battle for leadership begins!</li><li>The X-Men must choose&hellip;take down the Arkea Sentinels or go after the Sisterhood.</li></ul>"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/50074",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/50074/x-men_2013_12_jones_variant/jones_variant?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/48685",
+            "name": "X-Men (2013) #12"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-03-19T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-03-05T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/e0/531e18e70a603",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/e0/531e18e70a603",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50074/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11575",
+              "name": "Kris Anka",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5752",
+              "name": "J. G. Jones",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11544",
+              "name": "Brian Wood",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50074/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50074/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/112191",
+              "name": "cover from X-Men (2013) #12 (TBD ARTIST VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/112192",
+              "name": "story from X-Men (2013) #12 (TBD ARTIST VARIANT)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50074/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49714,
+        "digitalId": 0,
+        "title": "X-Men (2013) #11 (Blank Cover Variant)",
+        "issueNumber": 11,
+        "variantDescription": "Blank Cover Variant",
+        "description": null,
+        "modified": "2013-11-20T09:42:11-0500",
+        "isbn": "",
+        "upc": "75960607924701151",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49714",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49714/x-men_2013_11_blank_cover_variant/blank_cover_variant?utm_campaign=apiRef&utm_source=174f830ad07308789d121895fea7f314"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17635",
+          "name": "X-Men (2013 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/46793",
+            "name": "X-Men (2013) #11"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/49715",
+            "name": "X-Men (2013) #11 (Tbd Artist Animal Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/49716",
+            "name": "X-Men (2013) #11 (Cassaday Sketch Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/49717",
+            "name": "X-Men (2013) #11 (Cassaday Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50073",
+            "name": "X-Men (2013) #11 (Tbd Artist Variant a)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50167",
+            "name": "X-Men (2013) #11 (Tbd Artist Variant B)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-02-19T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-02-05T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49714/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8715",
+              "name": "Jeanine Schaefer",
+              "role": "editor"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49714/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49714/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/111502",
+              "name": "cover from X-Men (2013) #11 (BLANK COVER VARIANT)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/111503",
+              "name": "story from X-Men (2013) #11 (BLANK COVER VARIANT)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49714/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}
