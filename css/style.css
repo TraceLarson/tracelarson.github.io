@@ -1,17 +1,19 @@
 body {
   font: 100% Arial, Helvetica, sans-serif;
-  color: black;
-  background: black; }
+  color: white;
+  background: white; }
   body a {
     color: red; }
 
 header,
 footer {
-  background-color: white; }
+  background-color: black; }
 
 .wrapper {
   margin: 0 auto;
-  width: 60%; }
+  width: 90%;
+  max-width: 900px;
+  position: relative; }
 
 h1 {
   display: inline-block;
@@ -26,28 +28,48 @@ h1 {
 
 header form {
   margin: 0 auto;
-  width: 60%; }
+  width: 90%;
+  max-width: 900px;
+  position: relative; }
   header form p input {
     width: 90%;
     height: 30px;
-    border: 1px solid blue;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     border-radius: 5px; }
+  header form p button {
+    background: url(../search-assets/search.png) center;
+    display: inline-block;
+    position: relative;
+    right: -90%;
+    top: -30px; }
 
 img {
-  width: auto;
-  max-width: 100%;
+  width: 150px;
   height: auto; }
 
 nav ul {
-  list-style: none; }
+  list-style: none;
+  float: right;
+  clear: both; }
   nav ul li {
     display: inline-block;
     position: relative;
-    top: 0;
-    left: 100%; }
+    top: -50px; }
 
 #content ul li {
-  display: inline-block; }
+  display: inline-block;
+  margin: 10% 5%;
+  position: relative;
+  text-align: center; }
+  #content ul li a {
+    display: inline-block;
+    position: relative;
+    max-width: 150px; }
+    #content ul li a img {
+      width: 100%;
+      position: relative; }

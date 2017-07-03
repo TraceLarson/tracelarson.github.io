@@ -2,13 +2,18 @@ $font-stack: Arial,
 Helvetica,
 sans-serif;
 $primary-color: white;
-$content-color: black;
+$content-color: white;
 $background-color: black;
 $link-color: red;
+$form-color: red;
 $radius: 5px;
+
+
 @mixin autoMargin() {
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
 }
 
 @mixin border-radius($radius) {
@@ -21,7 +26,7 @@ $radius: 5px;
 body {
     font: 100% $font-stack;
     color: $content-color;
-    background: $background-color;
+    background: $primary-color;
     a {
         color: $link-color;
     }
@@ -29,7 +34,7 @@ body {
 
 header,
 footer {
-    background-color: $primary-color;
+    background-color: $background-color ;
 }
 
 .wrapper {
@@ -46,6 +51,7 @@ h1 {
         display: block;
         font-size: 20px;
         font-weight: lighter;
+        
     }
 }
 
@@ -55,26 +61,39 @@ header {
         p input {
             width: 90%;
             height: 30px;
-            border: 1px solid blue;
+            border: 1px solid $form-color;
+            background-color: $background-color;
+            color: $content-color;
             @include border-radius($radius);
+            
+        }
+        p button{
+            background: url(../search-assets/search.png) center;
+            display: inline-block;
+            position: relative;
+            right: -90%;
+            top: -30px;
+            
         }
     }
 }
 
 img {
-    width: auto;
-    max-width: 100%;
+    width: 150px;
     height: auto;
 }
 
 nav {
     ul {
         list-style: none;
+        float: right;
+        clear: both;
         li {
             display: inline-block;
             position: relative;
-            top: 0;
-            left: 100%;
+            top: -50px;
+            
+          
         }
     }
 }
@@ -83,6 +102,21 @@ nav {
     ul {
         li {
             display: inline-block;
+            margin: 10% 5%;
+            position: relative;
+            text-align: center;
+            a{
+                display: inline-block;
+                position: relative;
+                max-width: 150px;
+                
+                
+                img{
+                    width: 100%;
+                    position: relative;
+                }
+                
+            }
         }
     }
 }
