@@ -6,15 +6,15 @@
     <title>Marvel Search</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
     <header>
+        <h1>Marvel <em>Search</em></h1>
         <div class="wrapper">
-            <h1>Marvel Search</h1>
-
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -26,36 +26,62 @@
 
                 <form action="">
                     <p>
-                        <input type="search" name="mainsearch" />
+                        
+                        <input id="searchString" type="text" name="searchString" value="Search for a comic book"/>
                     </p>
                     <p>
-                        <input type="submit" value="search" />
+                        <button id="searchButton" type="button">Search</button>
                     </p>
                 </form>
-
             </div>
         </div>
     </header>
 
     <section id="content">
-        <ul id="results">
-            <li><a href="">Results1</a></li>
-            <li><a href="">Results2</a></li>
-            <li><a href="">Results3</a></li>
-            <li><a href="">Results4</a></li>
-            <li><a href="">Results5</a></li>
-            <li><a href="">Results6</a></li>
-            <li><a href="">Results7</a></li>
-            <li><a href="">Results8</a></li>
-            <li><a href="">Results9</a></li>
-        </ul>
+        <div class="wrapper">
+            <h2>Results For<em>Search String</em></h2>
+            <ul id="results">
 
-        <a href="">View More</a>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results1</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results2</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results3</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results4</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results5</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results6</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results7</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results8</a>
+                </li>
+                <li>
+                    <a href=""><img src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_xlarge.jpg" alt="">Results9</a>
+                </li>
+
+            </ul>
+
+            <a href="">View More</a>
+        </div>
     </section>
 
     <footer>
         <h2>Built by Trace Larson for DWS2</h2>
     </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/content.js"></script>
 </body>
 
 </html>
