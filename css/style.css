@@ -1,13 +1,17 @@
+header,
+footer {
+  background-color: black; }
+
+h1, nav ul li, #content ul li, #content ul li a {
+  display: inline-block; }
+
 body {
   font: 100% Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: white;
   background: white; }
   body a {
     color: red; }
-
-header,
-footer {
-  background-color: black; }
 
 .wrapper {
   margin: 0 auto;
@@ -16,7 +20,6 @@ footer {
   position: relative; }
 
 h1 {
-  display: inline-block;
   background: red;
   color: white;
   font-weight: bold;
@@ -42,11 +45,16 @@ header form {
     -ms-border-radius: 5px;
     border-radius: 5px; }
   header form p button {
-    background: url(../search-assets/search.png) center;
+    width: 30px;
+    height: 30px;
+    background: url(../search-assets/search.png) center top/cover no-repeat;
     display: inline-block;
     position: relative;
     right: -90%;
-    top: -30px; }
+    top: -30px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; }
 
 img {
   width: 150px;
@@ -57,17 +65,14 @@ nav ul {
   float: right;
   clear: both; }
   nav ul li {
-    display: inline-block;
     position: relative;
     top: -50px; }
 
 #content ul li {
-  display: inline-block;
-  margin: 10% 5%;
+  margin: 2% 5%;
   position: relative;
   text-align: center; }
   #content ul li a {
-    display: inline-block;
     position: relative;
     max-width: 150px; }
     #content ul li a img {

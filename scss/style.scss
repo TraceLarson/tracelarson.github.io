@@ -1,12 +1,5 @@
-$font-stack: Arial,
-Helvetica,
-sans-serif;
-$primary-color: white;
-$content-color: white;
-$background-color: black;
-$link-color: red;
-$form-color: red;
-$radius: 5px;
+@import "variables.scss";
+@import "placeholders.scss";
 
 
 @mixin autoMargin() {
@@ -25,6 +18,7 @@ $radius: 5px;
 
 body {
     font: 100% $font-stack;
+    font-size: $font-size;
     color: $content-color;
     background: $primary-color;
     a {
@@ -34,7 +28,7 @@ body {
 
 header,
 footer {
-    background-color: $background-color ;
+    @extend %backgroundColor;
 }
 
 .wrapper {
@@ -42,7 +36,7 @@ footer {
 }
 
 h1 {
-    display: inline-block;
+    @extend %display;
     background: red;
     color: white;
     font-weight: bold;
@@ -68,11 +62,17 @@ header {
             
         }
         p button{
-            background: url(../search-assets/search.png) center;
+            width: 30px;
+            height: 30px;
+            background: url(../search-assets/search.png) center top / cover no-repeat;
             display: inline-block;
             position: relative;
             right: -90%;
             top: -30px;
+            
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
             
         }
     }
@@ -89,7 +89,7 @@ nav {
         float: right;
         clear: both;
         li {
-            display: inline-block;
+            @extend %display;
             position: relative;
             top: -50px;
             
@@ -101,12 +101,12 @@ nav {
 #content {
     ul {
         li {
-            display: inline-block;
-            margin: 10% 5%;
+            @extend %display;
+            margin: 2% 5%;
             position: relative;
             text-align: center;
             a{
-                display: inline-block;
+                @extend %display;
                 position: relative;
                 max-width: 150px;
                 
