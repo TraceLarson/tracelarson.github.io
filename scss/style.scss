@@ -1,55 +1,17 @@
 @import "variables.scss";
 @import "placeholders.scss";
+@import "mixins.scss";
+@import "base.scss";
+@import "typography.scss";
 
 
-@mixin autoMargin() {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 900px;
-    position: relative;
-}
-
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-}
-
-body {
-    font: 100% $font-stack;
-    font-size: $font-size;
-    color: $content-color;
-    background: $primary-color;
-    a {
-        color: $link-color;
-    }
-}
-
-header,
-footer {
-    @extend %backgroundColor;
-}
 
 .wrapper {
     @include autoMargin();
 }
 
-h1 {
-    @extend %display;
-    background: red;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    em {
-        display: block;
-        font-size: 20px;
-        font-weight: lighter;
-        
-    }
-}
-
 header {
+    min-height: 200px;
     form {
         @include autoMargin();
         p input {
@@ -59,11 +21,15 @@ header {
             background-color: $background-color;
             color: $content-color;
             @include border-radius($radius);
+            padding-left: 1rem;
             
         }
         p button{
+            border: 1px solid $form-color;
+            @include border-radius($radius);
             width: 30px;
             height: 30px;
+            margin-left: 0rem;
             background: url(../search-assets/search.png) center top / cover no-repeat;
             display: inline-block;
             position: relative;
@@ -91,24 +57,30 @@ nav {
         li {
             @extend %display;
             position: relative;
-            top: -50px;
-            
-          
+            top: -50px;             
         }
     }
 }
 
 #content {
     ul {
+        background-color: $background-color; 
+        text-align: center;
+
         li {
             @extend %display;
             margin: 2% 5%;
             position: relative;
             text-align: center;
+            background-color: $background-color; 
             a{
                 @extend %display;
                 position: relative;
                 max-width: 150px;
+                
+                &:hover{
+                    @extend %hover;
+                }
                 
                 
                 img{
