@@ -2,16 +2,48 @@ header,
 footer {
   background-color: black; }
 
-h1, nav ul li, #content ul li, #content ul li a {
+h1, h2, nav ul li, #content ul li, #content ul li a {
   display: inline-block; }
+
+a:hover, #content ul li a:hover {
+  color: white; }
+
+html {
+  font-size: 10px; }
 
 body {
   font: 100% Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: white;
   background: white; }
-  body a {
-    color: red; }
+
+footer {
+  text-align: center; }
+
+h1 {
+  background: red;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 3rem; }
+  h1 em {
+    display: block;
+    font-size: 2rem;
+    font-weight: lighter;
+    background: black; }
+
+h2 {
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem; }
+  h2 em {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: lighter; }
+
+a {
+  color: red; }
 
 .wrapper {
   margin: 0 auto;
@@ -19,42 +51,41 @@ body {
   max-width: 900px;
   position: relative; }
 
-h1 {
-  background: red;
-  color: white;
-  font-weight: bold;
-  font-size: 30px; }
-  h1 em {
-    display: block;
-    font-size: 20px;
-    font-weight: lighter; }
-
-header form {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 900px;
-  position: relative; }
-  header form p input {
+header {
+  min-height: 200px; }
+  header form {
+    margin: 0 auto;
     width: 90%;
-    height: 30px;
-    border: 1px solid red;
-    background-color: black;
-    color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px; }
-  header form p button {
-    width: 30px;
-    height: 30px;
-    background: url(../search-assets/search.png) center top/cover no-repeat;
-    display: inline-block;
-    position: relative;
-    right: -90%;
-    top: -30px;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden; }
+    max-width: 900px;
+    position: relative; }
+    header form p input {
+      width: 90%;
+      height: 30px;
+      border: 1px solid red;
+      background-color: black;
+      color: white;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+      padding-left: 1rem; }
+    header form p button {
+      border: 1px solid red;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+      width: 30px;
+      height: 30px;
+      margin-left: 0rem;
+      background: url(../search-assets/search.png) center top/cover no-repeat;
+      display: inline-block;
+      position: relative;
+      right: -90%;
+      top: -30px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden; }
 
 img {
   width: 150px;
@@ -68,13 +99,17 @@ nav ul {
     position: relative;
     top: -50px; }
 
-#content ul li {
-  margin: 2% 5%;
-  position: relative;
+#content ul {
+  background-color: black;
   text-align: center; }
-  #content ul li a {
+  #content ul li {
+    margin: 2% 5%;
     position: relative;
-    max-width: 150px; }
-    #content ul li a img {
-      width: 100%;
-      position: relative; }
+    text-align: center;
+    background-color: black; }
+    #content ul li a {
+      position: relative;
+      max-width: 150px; }
+      #content ul li a img {
+        width: 100%;
+        position: relative; }

@@ -3,7 +3,9 @@ var request = new XMLHttpRequest();
 console.log('created XMLHttpRequest variable');
 
 var searchButton = document.getElementById('searchButton');
-
+var resultsList = document.getElementById('results');
+//Clear out existing example html
+resultsList.innerHTML = '';
 
 searchButton.addEventListener('click', GetMarvelData);
 
@@ -11,6 +13,8 @@ function GetMarvelData() {
 
     //Get value of text input 
     var searchName = document.getElementById('searchString').value;
+    var searchTitle = document.getElementById('contentTitle');
+    searchTitle.innerHTML = searchName;
 
     //Marvel API keys, time stamp, and Endpoint
     var privKey = 'ef1acf3513907eb6db0ef8e9fd7e80517875d1c2';
@@ -38,10 +42,8 @@ function GetMarvelData() {
 
             //Do something with the data
             //var imageTag = document.querySelectorAll('img');
-            var resultsList = document.getElementById('results');
-            //Clear out existing example html
-            resultsList.innerHTML = '';
-            
+
+
             var imagePath = "";
             var imageExtension = "";
             var comicLink = "";
@@ -50,15 +52,15 @@ function GetMarvelData() {
             //alert(resultsArray.length);
 
             for (var i = 0; i < resultsArray.length; i++) {
-                
-                
-                
+
+
+
                 //Get information from API results
                 imagePath = resultsArray[i].thumbnail.path;
                 imageExtension = resultsArray[i].thumbnail.extension;
                 comicLink = resultsArray[i].urls[0].url;
                 comicTitle = resultsArray[i].title;
-                
+
                 //Generate child nodes of the results list
                 var liNode = document.createElement('li');
 
@@ -72,13 +74,13 @@ function GetMarvelData() {
                 aNode.appendChild(textNode);
                 liNode.appendChild(aNode);
                 resultsList.appendChild(liNode);
-                
+
                 //Add href and target attributes to anchor tags
                 resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
                 resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
-                
+
                 //Add src attribute for each link
-                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuilImagePath(imagePath,imageExtension));
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuilImagePath(imagePath, imageExtension));
 
             }
 
