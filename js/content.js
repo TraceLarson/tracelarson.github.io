@@ -4,17 +4,28 @@ console.log('created XMLHttpRequest variable');
 
 var searchButton = document.getElementById('searchButton');
 var resultsList = document.getElementById('results');
+var content = document.getElementById('content');
+var searchName = document.getElementById('searchString');
+var searchTitle = document.getElementById('contentTitle');
+
+//var header = document.getElementById('header');
+//Hide the content until the user searches
+content.setAttribute('class','hidden');
+
 //Clear out existing example html
 resultsList.innerHTML = '';
 
 searchButton.addEventListener('click', GetMarvelData);
+searchName.addEventListener('click', ClearInputField);
 
 function GetMarvelData() {
 
     //Get value of text input 
-    var searchName = document.getElementById('searchString').value;
-    var searchTitle = document.getElementById('contentTitle');
-    searchTitle.innerHTML = searchName;
+    searchTitle.innerHTML = searchName.value;
+    
+    //show the content;
+    content.removeAttribute('class');
+    
 
     //Marvel API keys, time stamp, and Endpoint
     var privKey = 'ef1acf3513907eb6db0ef8e9fd7e80517875d1c2';
@@ -23,7 +34,7 @@ function GetMarvelData() {
     var endPoint = 'https://gateway.marvel.com/v1/public/';
 
     //Create URL for searching MARVEL API  
-    var url = endPoint + 'comics?format=comic&title=' + searchName + '&limit=20&apikey=' + publKey;
+    var url = endPoint + 'comics?format=comic&title=' + searchName.value + '&limit=20&apikey=' + publKey;
     console.log(url);
 
     //Open request, ASYNC
@@ -106,4 +117,8 @@ function BuilImagePath(path, ext) {
     var fullImagePath = path + '/portrait_xlarge.' + ext;
     return fullImagePath;
 
+}
+
+function ClearInputField(){
+    searchName.value = '';
 }

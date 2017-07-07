@@ -9,3 +9,9 @@
 %hover {
     color: $action-color;
 }
+
+%border {
+    border: 1px solid $form-color;
+    background-color: $background-color;
+    padding-left: 1rem;
+}

@@ -3,43 +3,65 @@
 @import "mixins.scss";
 @import "base.scss";
 @import "typography.scss";
-
-
-
+@import "forms.scss";
 .wrapper {
     @include autoMargin();
 }
 
 header {
+    background: url('../images/marvel_comics_collage_header.jpg') center / cover no-repeat;
+    overflow: auto;
     min-height: 200px;
+    height: 563px;
     form {
         @include autoMargin();
-        p input {
-            width: 90%;
-            height: 30px;
-            border: 1px solid $form-color;
-            background-color: $background-color;
-            color: $content-color;
-            @include border-radius($radius);
-            padding-left: 1rem;
-            
+        margin-top: 200px;
+        p {
+            label {
+                display: inline-block;
+                text-indent: -9999px;
+            }
+            input {
+                width: 90%;
+                height: 30px;
+                color: $content-color;
+                @extend %border;
+                @include border-radius($radius);
+            }
+            button {
+                border: 1px solid $form-color;
+                @include border-radius($radius);
+                width: 30px;
+                height: 30px;
+                margin-left: 0rem;
+                background: url(../search-assets/search.png) center top / cover no-repeat;
+                display: inline-block;
+                position: relative;
+                right: -87%;
+                top: -30px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
         }
-        p button{
-            border: 1px solid $form-color;
-            @include border-radius($radius);
-            width: 30px;
-            height: 30px;
-            margin-left: 0rem;
-            background: url(../search-assets/search.png) center top / cover no-repeat;
-            display: inline-block;
+    }
+}
+
+nav {
+    ul {
+        @extend %display;
+        content: "";
+        width: 18%;
+        height: 15px;
+        list-style: none;
+        position: relative;
+        left: 82%;
+        top: -50px;
+        //float: right;
+        //clear: both;
+        li {
+            @extend %display;
             position: relative;
-            right: -90%;
-            top: -30px;
-            
-            text-indent: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-            
         }
     }
 }
@@ -49,45 +71,35 @@ img {
     height: auto;
 }
 
-nav {
-    ul {
-        list-style: none;
-        float: right;
-        clear: both;
-        li {
-            @extend %display;
-            position: relative;
-            top: -50px;             
-        }
-    }
+.hidden {
+    overflow: hidden;
+    height: 0px;
 }
 
 #content {
     ul {
-        background-color: $background-color; 
+        background-color: $background-color;
         text-align: center;
-
         li {
             @extend %display;
-            margin: 2% 5%;
+    
+            margin: 10% 1%;
             position: relative;
             text-align: center;
-            background-color: $background-color; 
-            a{
+            background-color: $background-color;
+            max-height: 400px;
+            overflow: hidden;
+            a {
                 @extend %display;
                 position: relative;
-                max-width: 150px;
-                
-                &:hover{
+                max-width: 250px;
+                &:hover {
                     @extend %hover;
                 }
-                
-                
-                img{
+                img {
                     width: 100%;
                     position: relative;
                 }
-                
             }
         }
     }
