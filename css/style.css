@@ -71,7 +71,7 @@ header {
       display: inline-block;
       text-indent: -9999px; }
     header form p input {
-      width: 90%;
+      width: 100%;
       height: 30px;
       color: white;
       -webkit-border-radius: 5px;
@@ -87,7 +87,8 @@ header {
       background: url(../search-assets/search.png) center top/cover no-repeat;
       display: inline-block;
       position: relative;
-      right: -87%;
+      float: left;
+      right: -90%;
       top: -30px;
       text-indent: 100%;
       white-space: nowrap;
