@@ -3,12 +3,19 @@
 @import "mixins.scss";
 @import "base.scss";
 @import "typography.scss";
+<<<<<<< HEAD
 @import "forms.scss";
+=======
+
+
+
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
 .wrapper {
     @include autoMargin();
 }
 
 header {
+<<<<<<< HEAD
     background: url('../images/marvel_comics_collage_header.jpg') center / cover no-repeat;
     overflow: auto;
     min-height: 200px;
@@ -43,10 +50,42 @@ header {
                 white-space: nowrap;
                 overflow: hidden;
             }
+=======
+    min-height: 200px;
+    form {
+        @include autoMargin();
+        p input {
+            width: 90%;
+            height: 30px;
+            border: 1px solid $form-color;
+            background-color: $background-color;
+            color: $content-color;
+            @include border-radius($radius);
+            padding-left: 1rem;
+            
+        }
+        p button{
+            border: 1px solid $form-color;
+            @include border-radius($radius);
+            width: 30px;
+            height: 30px;
+            margin-left: 0rem;
+            background: url(../search-assets/search.png) center top / cover no-repeat;
+            display: inline-block;
+            position: relative;
+            right: -90%;
+            top: -30px;
+            
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
         }
     }
 }
 
+<<<<<<< HEAD
 nav {
     ul {
         @extend %display;
@@ -62,10 +101,27 @@ nav {
         li {
             @extend %display;
             position: relative;
+=======
+img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    ul {
+        list-style: none;
+        float: right;
+        clear: both;
+        li {
+            @extend %display;
+            position: relative;
+            top: -50px;             
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
         }
     }
 }
 
+<<<<<<< HEAD
 img {
     width: 150px;
     height: auto;
@@ -100,6 +156,34 @@ img {
                     width: 100%;
                     position: relative;
                 }
+=======
+#content {
+    ul {
+        background-color: $background-color; 
+        text-align: center;
+
+        li {
+            @extend %display;
+            margin: 2% 5%;
+            position: relative;
+            text-align: center;
+            background-color: $background-color; 
+            a{
+                @extend %display;
+                position: relative;
+                max-width: 150px;
+                
+                &:hover{
+                    @extend %hover;
+                }
+                
+                
+                img{
+                    width: 100%;
+                    position: relative;
+                }
+                
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
             }
         }
     }

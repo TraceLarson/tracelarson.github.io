@@ -11,3 +11,7 @@ node_modules/.bin/node-gyp
 node_modules/.bin/node-sass
 node_modules/.bin/nopt
 node_modules/.bin/not-in-install
+<<<<<<< HEAD
+=======
+node_modules/
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c

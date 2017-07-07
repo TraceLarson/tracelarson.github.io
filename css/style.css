@@ -2,17 +2,24 @@ header,
 footer {
   background-color: black; }
 
+<<<<<<< HEAD
 h1, h2, nav ul, nav ul li, #content ul li, #content ul li a {
+=======
+h1, h2, nav ul li, #content ul li, #content ul li a {
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
   display: inline-block; }
 
 a:hover, #content ul li a:hover {
   color: white; }
 
+<<<<<<< HEAD
 header form p input {
   border: 1px solid red;
   background-color: black;
   padding-left: 1rem; }
 
+=======
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
 html {
   font-size: 10px; }
 
@@ -57,14 +64,19 @@ a {
   position: relative; }
 
 header {
+<<<<<<< HEAD
   background: url("../images/marvel_comics_collage_header.jpg") center/cover no-repeat;
   overflow: auto;
   min-height: 200px;
   height: 563px; }
+=======
+  min-height: 200px; }
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
   header form {
     margin: 0 auto;
     width: 90%;
     max-width: 900px;
+<<<<<<< HEAD
     position: relative;
     margin-top: 200px; }
     header form p label {
@@ -77,23 +89,46 @@ header {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px; }
+=======
+    position: relative; }
+    header form p input {
+      width: 90%;
+      height: 30px;
+      border: 1px solid red;
+      background-color: black;
+      color: white;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+      padding-left: 1rem; }
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
     header form p button {
       border: 1px solid red;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
+<<<<<<< HEAD
+=======
+      border-radius: 5px;
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
       width: 30px;
       height: 30px;
       margin-left: 0rem;
       background: url(../search-assets/search.png) center top/cover no-repeat;
       display: inline-block;
       position: relative;
+<<<<<<< HEAD
       right: -87%;
+=======
+      right: -90%;
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
       top: -30px;
       text-indent: 100%;
       white-space: nowrap;
       overflow: hidden; }
 
+<<<<<<< HEAD
 nav ul {
   content: "";
   width: 18%;
@@ -105,18 +140,31 @@ nav ul {
   nav ul li {
     position: relative; }
 
+=======
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
 img {
   width: 150px;
   height: auto; }
 
+<<<<<<< HEAD
 .hidden {
   overflow: hidden;
   height: 0px; }
+=======
+nav ul {
+  list-style: none;
+  float: right;
+  clear: both; }
+  nav ul li {
+    position: relative;
+    top: -50px; }
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
 
 #content ul {
   background-color: black;
   text-align: center; }
   #content ul li {
+<<<<<<< HEAD
     margin: 10% 1%;
     position: relative;
     text-align: center;
@@ -126,6 +174,15 @@ img {
     #content ul li a {
       position: relative;
       max-width: 250px; }
+=======
+    margin: 2% 5%;
+    position: relative;
+    text-align: center;
+    background-color: black; }
+    #content ul li a {
+      position: relative;
+      max-width: 150px; }
+>>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
       #content ul li a img {
         width: 100%;
         position: relative; }
