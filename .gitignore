@@ -11,3 +11,4 @@ node_modules/.bin/node-gyp
 node_modules/.bin/node-sass
 node_modules/.bin/nopt
 node_modules/.bin/not-in-install
+node_modules/
