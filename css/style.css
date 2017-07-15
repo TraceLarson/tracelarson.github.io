@@ -112,6 +112,15 @@ nav ul {
   position: relative;
   left: 82%;
   top: -50px; }
+  @media (max-width: 300px) {
+    nav ul {
+      text-indent: -9999px;
+      width: 32px;
+      height: 32px;
+      background: url(../images/menu.png) center top/cover no-repeat, black;
+      position: absolute;
+      top: -257px;
+      left: 94%; } }
   nav ul li {
     position: relative; }
 

@@ -69,6 +69,19 @@ header {
 
 nav {
     ul {
+        @include windowSize(small){
+            text-indent: -9999px;
+            width: 32px;
+            height: 32px;
+            background: url(../images/menu.png) center top / cover no-repeat, $background-color;
+            position: absolute;
+            top: -257px;
+            left: 94%;
+
+            a:hover{
+
+            }
+        }
         @extend %display;
         content: "";
         width: 18%;
@@ -81,6 +94,12 @@ nav {
         li {
             @extend %display;
             position: relative;
+
+            //@include windowSize(small){
+            //    text-indent: -9999px;
+            //
+            //}
+
 
         }
     }
