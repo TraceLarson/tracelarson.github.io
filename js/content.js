@@ -1,27 +1,27 @@
 // Instantiate new instance of XHR object
 var request = new XMLHttpRequest();
-console.log('created XMLHttpRequest variable');
 
-var searchButton = document.getElementById('searchButton');
+// document variables
+var searchButton = document.getElementById('searchForm');
 var resultsList = document.getElementById('results');
-// <<<<<<< HEAD
 var content = document.getElementById('content');
 var searchName = document.getElementById('searchString');
 var searchTitle = document.getElementById('contentTitle');
 
-//var header = document.getElementById('header');
 //Hide the content until the user searches
 content.setAttribute('class','hidden');
 
-//Clear out existing example html
-resultsList.innerHTML = '';
-
-searchButton.addEventListener('click', GetMarvelData);
+//Event listeners
+searchButton.addEventListener('submit', function(e){
+    e.preventDefault();
+    GetMarvelData();
+});
 searchName.addEventListener('click', ClearInputField);
 
 
 function GetMarvelData() {
-
+    //Reset the search input
+    resultsList.innerHTML = '';
     //Get value of text input 
     searchTitle.innerHTML = searchName.value;
     
@@ -33,7 +33,7 @@ function GetMarvelData() {
     //Marvel API keys, time stamp, and Endpoint
     var privKey = 'ef1acf3513907eb6db0ef8e9fd7e80517875d1c2';
     var publKey = '174f830ad07308789d121895fea7f314';
-    var ts = new Date().getTime();
+    //var ts = new Date().getTime();
     var endPoint = 'https://gateway.marvel.com/v1/public/';
 
     //Create URL for searching MARVEL API  
@@ -56,19 +56,13 @@ function GetMarvelData() {
             console.log("recieved data");
 
             //Do something with the data
-            //var imageTag = document.querySelectorAll('img');
-
-
             var imagePath = "";
             var imageExtension = "";
             var comicLink = "";
             var comicTitle = "";
             var resultsArray = comicData.data.results;
-            //alert(resultsArray.length);
 
             for (var i = 0; i < resultsArray.length; i++) {
-
-
 
                 //Get information from API results
                 imagePath = resultsArray[i].thumbnail.path;
@@ -96,6 +90,8 @@ function GetMarvelData() {
 
                 //Add src attribute for each link
                 resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuilImagePath(imagePath, imageExtension));
+                //Add alt attribute for each link
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('alt', comicTitle);
 
             }
 
@@ -122,10 +118,7 @@ function BuilImagePath(path, ext) {
     return fullImagePath;
 
 }
-// <<<<<<< HEAD
 
 function ClearInputField(){
     searchName.value = '';
 }
-// =======
-// >>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c

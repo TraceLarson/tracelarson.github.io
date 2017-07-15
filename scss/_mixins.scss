@@ -9,6 +9,20 @@
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
+}
 
-  
+@mixin topLeftRadius($radius) {
+    border-top-left-radius: $radius;
+}
+
+@mixin topRightRadius($radius) {
+    border-top-right-radius: $radius;
+}
+
+@mixin bottomRightRadius($radius) {
+    border-bottom-right-radius: $radius;
+}
+
+@mixin bottomLeftRadius($radius) {
+    border-bottom-left-radius: $radius;
 }
