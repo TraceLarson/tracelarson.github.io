@@ -22,7 +22,7 @@ time, mark, audio, video,
 	margin: 0; 
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	/*font-size: 100%;*/
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
@@ -54,7 +54,7 @@ ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	/*content: '';*/
 	content: none;
 }
 

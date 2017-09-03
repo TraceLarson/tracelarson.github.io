@@ -1,3 +1,5 @@
+
+
 @mixin autoMargin() {
     margin: 0 auto;
     width: 90%;
@@ -11,4 +13,18 @@
     -ms-border-radius: $radius;
 
   
+}
+
+@mixin input-form($form-width, $form-height) {
+    outline: none;
+    width: $form-width;
+    height: $form-height;
+    color: $form-font-color;
+    background: $form-background-color;
+    @extend %border;
+    @include border-radius($radius);
+    &:focus {
+        background-color: $content-color;
+    }
+
 }

@@ -3,7 +3,6 @@
 @import "mixins.scss";
 @import "base.scss";
 @import "typography.scss";
-@import "forms.scss";
 
 
 
@@ -27,17 +26,12 @@ header {
                 text-indent: -9999px;
             }
             input {
-                outline: none;
-                width: 90%;
-                height: 30px;
-                color: $form-font-color;
-                background: $form-background-color url(../search-assets/search.png) left top  no-repeat;
+                @include input-form($form-width, $form-height);
+                background-image: url(../search-assets/search.png);
+                background-position: left top;
+                background-repeat: no-repeat;
                 background-size: auto 30px;
-                @extend %border;
-                @include border-radius($radius);
-                &:focus{
-                    background-color: $content-color;
-                }
+
             }
             button {
                 @include border-radius($radius);

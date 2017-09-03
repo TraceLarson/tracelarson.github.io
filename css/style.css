@@ -82,11 +82,14 @@ header {
       width: 90%;
       height: 30px;
       color: red;
-      background: black url(../search-assets/search.png) left top no-repeat;
-      background-size: auto 30px;
+      background: black;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
-      -ms-border-radius: 5px; }
+      -ms-border-radius: 5px;
+      background-image: url(../search-assets/search.png);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: auto 30px; }
       header form p input:focus {
         background-color: black; }
     header form p button {
