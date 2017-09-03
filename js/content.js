@@ -1,6 +1,8 @@
+
+
 // Instantiate new instance of XHR object
-var request = new XMLHttpRequest();
-console.log('created XMLHttpRequest variable');
+// var request = new XMLHttpRequest();
+// console.log('created XMLHttpRequest variable');
 
 var searchButton = document.getElementById('searchButton');
 var resultsList = document.getElementById('results');
@@ -22,10 +24,9 @@ function GetMarvelData() {
 
     //Get value of text input 
     searchTitle.innerHTML = searchName.value;
-    
+
     //show the content;
     content.removeAttribute('class');
-    
 
 
     //Marvel API keys, time stamp, and Endpoint
@@ -37,85 +38,96 @@ function GetMarvelData() {
 
     console.log(url);
 
-    //Open request, ASYNC
-    request.open('GET', url, true);
-    console.log('opened request');
+    //Create Fetch request
+    var promise = fetch(url);
+    console.log(promise);
 
-    //Listen for onload event
-    request.onload = function () {
-        //Check for success status codes
-        if (request.status >= 200 && request.status < 400) {
-            console.log("response succeeded");
-
-            //Parse data 
-            var comicData = JSON.parse(request.responseText);
-            console.log("recieved data");
-
-            //Do something with the data
-            var imagePath = "";
-            var imageExtension = "";
-            var comicLink = "";
-            var comicTitle = "";
-            var resultsArray = comicData.data.results;
-
-            for (var i = 0; i < resultsArray.length; i++) {
-
-                //Get information from API results
-                imagePath = resultsArray[i].thumbnail.path;
-                imageExtension = resultsArray[i].thumbnail.extension;
-                comicLink = resultsArray[i].urls[0].url;
-                comicTitle = resultsArray[i].title;
-
-                //Generate child nodes of the results list
-                var liNode = document.createElement('li');
-
-                var aNode = document.createElement('a');
-
-                var imgNode = document.createElement('img');
-
-                var textNode = document.createTextNode(comicTitle);
-
-                aNode.appendChild(imgNode);
-                aNode.appendChild(textNode);
-                liNode.appendChild(aNode);
-                resultsList.appendChild(liNode);
-
-                //Add href and target attributes to anchor tags
-                resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
-                resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
-
-                //Add src attribute for each link
-                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuildImagePath(imagePath, imageExtension));
-
-            }
+    promise.then(function(response) {
+        return response.json();
+    }).then(function(data) {
+        console.log(data);
+    }).catch(function(error){console.log(error);});
 
 
-        } else {
-            //Catch response errors
-            console.log('response error', request);
-        }
-    };
 
-    //Listen for connection errors
-    request.onerror = function () {
-        //Code for connection errors
-        console.log('connection errors');
-    };
 
-    //Send Request
-    request.send();
+    //---------
+    // //Open request, ASYNC
+    // request.open('GET', url, true);
+    // console.log('opened request');
+
+    // //-------Listen for onload event
+    // request.onload = function () {
+    //     //Check for success status codes
+    //     if (request.status >= 200 && request.status < 400) {
+    //         console.log("response succeeded");
+    //
+    //         //Parse data
+    //         var comicData = JSON.parse(request.responseText);
+    //         console.log("recieved data");
+    //
+    //         //Do something with the data
+    //         var imagePath = "";
+    //         var imageExtension = "";
+    //         var comicLink = "";
+    //         var comicTitle = "";
+    //         var resultsArray = comicData.data.results;
+    //
+    //         for (var i = 0; i < resultsArray.length; i++) {
+    //
+    //             //Get information from API results
+    //             imagePath = resultsArray[i].thumbnail.path;
+    //             imageExtension = resultsArray[i].thumbnail.extension;
+    //             comicLink = resultsArray[i].urls[0].url;
+    //             comicTitle = resultsArray[i].title;
+    //
+    //             //Generate child nodes of the results list
+    //             var liNode = document.createElement('li');
+    //
+    //             var aNode = document.createElement('a');
+    //
+    //             var imgNode = document.createElement('img');
+    //
+    //             var textNode = document.createTextNode(comicTitle);
+    //
+    //             aNode.appendChild(imgNode);
+    //             aNode.appendChild(textNode);
+    //             liNode.appendChild(aNode);
+    //             resultsList.appendChild(liNode);
+    //
+    //             //Add href and target attributes to anchor tags
+    //             resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
+    //             resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
+    //
+    //             //Add src attribute for each link
+    //             resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuildImagePath(imagePath, imageExtension));
+
+    //         }
+    //
+    //
+    //     } else {
+    //         //Catch response errors
+    //         console.log('response error', request);
+    //     }
+    // };
+
+    // //Listen for connection errors
+    // request.onerror = function () {
+    //     //Code for connection errors
+    //     console.log('connection errors');
+    // };
+
+    // //Send Request
+    // request.send();
+// }
+
+// function BuildImagePath(path, ext) {
+//
+//     var fullImagePath = path + '/portrait_xlarge.' + ext;
+//     return fullImagePath;
+//
+// }
 }
-
-function BuildImagePath(path, ext) {
-
-    var fullImagePath = path + '/portrait_xlarge.' + ext;
-    return fullImagePath;
-
-}
-// <<<<<<< HEAD
-
 function ClearInputField(){
     searchName.value = '';
 }
-// =======
-// >>>>>>> 31059d254684cd15fc05baac1d4bcdf81b04061c
