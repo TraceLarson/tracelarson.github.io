@@ -46,7 +46,8 @@ function GetMarvelData() {
         return response.json();
     }).then(function(data) {
         console.log(data);
-    }).catch(function(error){console.log(error);});
+        return(data);
+    }).then(processData).catch(function(error){console.log(error);});
 
 
 
@@ -113,13 +114,13 @@ function GetMarvelData() {
     };
 
     //Listen for connection errors
-    request.onerror = function () {
-        //Code for connection errors
-        console.log('connection errors');
-    };
+    // request.onerror = function () {
+    //     //Code for connection errors
+    //     console.log('connection errors');
+    // };
 
-    //Send Request
-    request.send();
+    // //Send Request
+    // request.send();
 }
 
 function BuildImagePath(path, ext) {
