@@ -9,38 +9,6 @@
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
-}
 
-@mixin topLeftRadius($radius) {
-    border-top-left-radius: $radius;
-}
-
-@mixin topRightRadius($radius) {
-    border-top-right-radius: $radius;
-}
-
-@mixin bottomRightRadius($radius) {
-    border-bottom-right-radius: $radius;
-}
-
-@mixin bottomLeftRadius($radius) {
-    border-bottom-left-radius: $radius;
-}
-
-@mixin windowSize($size) {
-    @if $size == small {
-        @media (max-width: 300px) {
-            @content;
-        }
-    }
-    @else if($size == medium) {
-        @media (min-width: 600px) {
-            @content;
-        }
-    }
-    @else if($size == large) {
-        @media (min-width: 800px) {
-            @content;
-        }
-    }
+  
 }

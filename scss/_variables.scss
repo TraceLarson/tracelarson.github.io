@@ -1,9 +1,16 @@
 $font-stack: Arial,Helvetica,sans-serif;
 $font-size: 10px;
-$primary-color: white;
-$content-color: white;
+
+$primary-color: %backgroundGradient;
+$content-color: black;
 $background-color: black;
+
 $link-color: red;
+$visited-color: #800020;
 $action-color: white;
-$form-color: red;
+
+$form-font-color: red;
+$form-background-color: black;
+$form-button-color: red;
+
 $radius: 5px;

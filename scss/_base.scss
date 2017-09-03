@@ -8,6 +8,7 @@ body {
     font-size: 1.6rem;
     color: $content-color;
     background: $primary-color;
+    @extend %backgroundGradient;
     
 }
 
@@ -16,9 +17,6 @@ footer {
     @extend %backgroundColor;
     
 }
-
-
-
 footer{
     text-align: center;
 }

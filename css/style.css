@@ -1,3 +1,10 @@
+body {
+  background: black;
+  background: -webkit-linear-gradient(grey, white);
+  background: -o-linear-gradient(grey, white);
+  background: -moz-linear-gradient(grey, white);
+  background: linear-gradient(grey, white); }
+
 header,
 footer {
   background-color: black; }
@@ -8,15 +15,10 @@ h1, h2, nav ul, nav ul li, #content ul li, #content ul li a {
 a:hover, #content ul li a:hover {
   color: white; }
 
-header form p input, header form p #searchButton, header form p button {
+header form p input, header form p button:hover {
   border: 1px solid red;
   background-color: black;
-  padding-left: 1rem; }
-
-header form p input, header form p #searchButton, header form p button {
-  -webkit-appearance: none;
-  outline: none;
-  box-shadow: none !important; }
+  padding-left: 3.5rem; }
 
 html {
   font-size: 10px; }
@@ -24,8 +26,8 @@ html {
 body {
   font: 100% Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
-  color: white;
-  background: white; }
+  color: black;
+  background: % backgroundGradient; }
 
 footer {
   text-align: center; }
@@ -76,33 +78,35 @@ header {
       display: inline-block;
       text-indent: -9999px; }
     header form p input {
+      outline: none;
+      width: 90%;
+      height: 30px;
+      color: red;
+      background: black url(../search-assets/search.png) left top no-repeat;
+      background-size: auto 30px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px; }
+      header form p input:focus {
+        background-color: black; }
+    header form p button {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-      border-right: 0px solid;
-      width: 100%;
+      outline: none;
+      width: 55px;
       height: 30px;
-      color: white; }
-    header form p #searchButton, header form p button {
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-      border-left: 0px solid;
-      width: 30px;
-      height: 30px;
+      background-color: red;
       margin-left: 0rem;
-      background: url(../search-assets/search.png) center top/cover no-repeat, black;
       display: inline-block;
       position: relative;
-      right: -100%;
-      top: -30px;
-      text-indent: 100%;
-      white-space: nowrap;
-      overflow: hidden; }
+      float: left;
+      right: -90%;
+      top: -30px; }
+      header form p button:hover {
+        background-color: black;
+        color: red;
+        padding-left: 0; }
 
 nav ul {
   content: "";
@@ -112,15 +116,6 @@ nav ul {
   position: relative;
   left: 82%;
   top: -50px; }
-  @media (max-width: 300px) {
-    nav ul {
-      text-indent: -9999px;
-      width: 32px;
-      height: 32px;
-      background: url(../images/menu.png) center top/cover no-repeat, black;
-      position: absolute;
-      top: -257px;
-      left: 94%; } }
   nav ul li {
     position: relative; }
 
