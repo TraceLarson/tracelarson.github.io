@@ -13,23 +13,18 @@ var searchTitle = document.getElementById('contentTitle');
 //Hide the content until the user searches
 content.setAttribute('class','hidden');
 
-//Clear out existing example html
-resultsList.innerHTML = '';
-
+searchButton.addEventListener('click', ClearContent);
 searchButton.addEventListener('click', GetMarvelData);
 searchName.addEventListener('click', ClearInputField);
 
 
 function GetMarvelData() {
-    if (resultsList.innerHTML != '')
-        resultsList.innerHTML = '';
 
     //Get value of text input 
     searchTitle.innerHTML = searchName.value;
 
     //show the content;
     content.removeAttribute('class');
-
 
     //Marvel API keys, time stamp, and Endpoint
     var publKey = '174f830ad07308789d121895fea7f314';
@@ -48,7 +43,7 @@ function GetMarvelData() {
         return response.json();
     }).then(processData).catch(function(error){
         console.log(error);
-        let notFoundText = document.createTextNode("no comics found");
+        let notFoundText = document.createTextNode("server error");
         let liNode = document.createElement('li');
 
         liNode.appendChild(notFoundText);
@@ -121,8 +116,15 @@ function BuildImagePath(path, ext) {
     var fullImagePath = path + '/portrait_xlarge.' + ext;
     return fullImagePath;
 
-};
+}
 
 function ClearInputField(){
     searchName.value = '';
-};
+}
+
+function ClearContent(){
+    let resultsNode = document.getElementById("results");
+    while (resultsNode.firstChild){
+        resultsNode.removeChild(resultsNode.firstChild);
+    }
+}
