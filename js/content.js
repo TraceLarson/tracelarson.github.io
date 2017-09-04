@@ -75,7 +75,7 @@ function GetMarvelData() {
 
         if (resultsArray.length > 0) {
 
-            for (let i = 0; i < resultsArray.length; i++) {
+            for (var i = 0; i < resultsArray.length; i++) {
 
                 //Get information from API results
                 imagePath = resultsArray[i].thumbnail.path;
