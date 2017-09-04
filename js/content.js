@@ -4,15 +4,23 @@
 // var request = new XMLHttpRequest();
 // console.log('created XMLHttpRequest variable');
 
-var searchButton = document.getElementById('searchButton');
-var resultsList = document.getElementById('results');
-var content = document.getElementById('content');
-var searchName = document.getElementById('searchString');
-var searchTitle = document.getElementById('contentTitle');
+const searchButton = document.getElementById('searchButton');
+const resultsList = document.getElementById('results');
+const content = document.getElementById('content');
+const searchName = document.getElementById('searchString');
+const searchTitle = document.getElementById('contentTitle');
 
 //Hide the content until the user searches
 content.setAttribute('class','hidden');
 
+//Enable Enter key to submit form.
+searchName.addEventListener('keypress', function(event){
+    if (event.keyCode == 13) {
+        searchButton.click();
+        event.preventDefault();
+    }
+});
+//Event listeners for submitting the form, clearing the input field and the content, if present.
 searchButton.addEventListener('click', ClearContent);
 searchButton.addEventListener('click', GetMarvelData);
 searchName.addEventListener('click', ClearInputField);
@@ -27,16 +35,16 @@ function GetMarvelData() {
     content.removeAttribute('class');
 
     //Marvel API keys, time stamp, and Endpoint
-    var publKey = '174f830ad07308789d121895fea7f314';
-    var endPoint = 'https://gateway.marvel.com/v1/public/';
+    const publKey = '174f830ad07308789d121895fea7f314';
+    const endPoint = 'https://gateway.marvel.com/v1/public/';
 
     //Create URL for searching MARVEL API  
-    var url = endPoint + 'comics?format=comic&title=' + searchName.value + '&limit=21&apikey=' + publKey;
+    const url = endPoint + 'comics?format=comic&title=' + searchName.value + '&limit=21&apikey=' + publKey;
 
     console.log(url);
 
     //Create Fetch request
-    var promise = fetch(url);
+    let promise = fetch(url);
     console.log(promise);
 
     promise.then(function(response) {
@@ -100,6 +108,7 @@ function GetMarvelData() {
 
             }
         }else {
+            //populate content with an error notification that the comic could not be found.
             let notFoundText = document.createTextNode("no comics found");
             let liNode = document.createElement('li');
 
@@ -112,6 +121,7 @@ function GetMarvelData() {
 
 }
 
+//Build the image path using the path and extension.
 function BuildImagePath(path, ext) {
 
     var fullImagePath = path + '/portrait_xlarge.' + ext;
@@ -119,10 +129,12 @@ function BuildImagePath(path, ext) {
 
 }
 
+//Clear the input field.
 function ClearInputField(){
     searchName.value = '';
 }
 
+//clears the current content of the page.
 function ClearContent(){
     while (resultsList.firstChild){
         resultsList.removeChild(resultsList.firstChild);

@@ -12,3 +12,11 @@ request went through try opening the developer console. I have logged a response
 request is valid or not.
 
 viewable at https://tracelarson.github.io/
+
+updated: removed the old XMLHTTPrequest on used the Fetch API which seems to be MUCH faster.
+
+updated: contents will now clear when you perform a new search.
+
+updated: improved visual styling.
+
+updated: You can now use the enter key to perform the search.
