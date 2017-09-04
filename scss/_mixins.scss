@@ -28,3 +28,19 @@
     }
 
 }
+
+@mixin button($button-width, $button-height ){
+    @include border-radius($radius);
+    outline: none;
+    width: $button-width;
+    height: $button-height;
+    background-color: $form-button-color;
+    margin-left: 0;
+    &:hover{
+        background-color: $form-background-color;
+        color: $form-font-color;
+        @extend %border;
+        padding-left: 0;
+    }
+
+}

@@ -34,3 +34,18 @@ a {
         @extend %hover;
     }
 }
+
+footer h2 {
+    background: $background-color;
+    color: $light-font-color;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+footer h3 {
+    color: $light-font-color;
+    font-size: .75em;
+    font-style: normal;
+    font-weight: lighter;
+}

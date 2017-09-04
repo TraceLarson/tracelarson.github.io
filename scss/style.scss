@@ -13,10 +13,11 @@
 }
 
 header {
-    background: url('../images/marvel_comics_collage_header.jpg') center / cover no-repeat;
+    background: url('../images/marvel_bandw1.jpg') center / cover no-repeat;
     overflow: auto;
     min-height: 200px;
     height: 563px;
+    box-shadow: 10px 10px 5px #888888;
     form {
         @include autoMargin();
         margin-top: 200px;
@@ -34,26 +35,12 @@ header {
 
             }
             button {
-                @include border-radius($radius);
-                outline: none;
-                width: 55px;
-                height: 30px;
-                background-color: $form-button-color;
-                margin-left: 0rem;
+                @include button($button-width, $button-height);
                 display: inline-block;
                 position: relative;
                 float:left;
                 right: -90%;
                 top: -30px;
-                &:hover{
-                    background-color: $form-background-color;
-                    color: $form-font-color;
-                    @extend %border;
-                    padding-left: 0;
-                }
-                //text-indent: 100%;
-                //white-space: nowrap;
-                //overflow: hidden;
             }
 
         }

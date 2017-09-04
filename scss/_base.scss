@@ -6,12 +6,14 @@ body {
     font: 100% $font-stack;
     font-size: 1.6rem;
     color: $content-color;
-    background: $primary-color;
+    //background: $primary-color;
     @extend %backgroundGradient;
     
 }
 
-header,
+header{
+
+}
 footer {
     @extend %backgroundColor;
     
