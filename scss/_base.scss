@@ -1,25 +1,16 @@
 html {
     font-size: $font-size;
-
 }
 
 body {
     font: 100% $font-stack;
     font-size: 1.6rem;
     color: $content-color;
-    //background: $primary-color;
     @extend %backgroundGradient;
-    
 }
 
-header{
-
-}
-footer {
-    @extend %backgroundColor;
-    
-}
 footer{
+    @extend %backgroundColor;
     text-align: center;
 }
 

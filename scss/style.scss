@@ -4,10 +4,6 @@
 @import "base.scss";
 @import "typography.scss";
 
-
-
-
-
 .wrapper {
     @include autoMargin();
 }
@@ -18,14 +14,17 @@ header {
     min-height: 200px;
     height: 563px;
     box-shadow: 10px 10px 5px #888888;
+
     form {
         @include autoMargin();
         margin-top: 200px;
+
         p {
             label {
                 display: inline-block;
                 text-indent: -9999px;
             }
+
             input {
                 @include input-form($form-width, $form-height);
                 background-image: url(../search-assets/search.png);
@@ -42,14 +41,12 @@ header {
                 right: -90%;
                 top: -30px;
             }
-
-
         }
     }
-
 }
 
 nav {
+
     ul {
         @extend %display;
         content: "";
@@ -82,16 +79,17 @@ img {
     ul {
         background-color: $background-color;
         text-align: center;
+
         li {
             @extend %display;
             color : $light-font-color;
-    
             margin: 10% 1%;
             position: relative;
             text-align: center;
             background-color: $background-color;
             max-height: 400px;
             overflow: hidden;
+
             a {
                 @extend %display;
                 position: relative;
@@ -99,11 +97,11 @@ img {
                 &:hover {
                     @extend %hover;
                 }
+
                 img {
                     width: 100%;
                     position: relative;
                 }
-
             }
         }
     }
