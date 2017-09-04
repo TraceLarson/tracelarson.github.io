@@ -43,7 +43,8 @@ function GetMarvelData() {
         return response.json();
     }).then(processData).catch(function(error){
         console.log(error);
-        let notFoundText = document.createTextNode("server error");
+
+        let notFoundText = document.createTextNode("Marvel API response error");
         let liNode = document.createElement('li');
 
         liNode.appendChild(notFoundText);
@@ -123,10 +124,8 @@ function ClearInputField(){
 }
 
 function ClearContent(){
-    if (resultsList.firstChild){
-        while (resultsList.firstChild){
-            resultsList.removeChild(resultsList.firstChild);
-        }
-    }
+    while (resultsList.firstChild){
+        resultsList.removeChild(resultsList.firstChild);
+    };
 
 }
