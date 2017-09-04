@@ -123,8 +123,10 @@ function ClearInputField(){
 }
 
 function ClearContent(){
-    let resultsNode = document.getElementById("results");
-    while (resultsNode.firstChild){
-        resultsNode.removeChild(resultsNode.firstChild);
+    if (resultsList.firstChild){
+        while (resultsList.firstChild){
+            resultsList.removeChild(resultsList.firstChild);
+        }
     }
+
 }
