@@ -82,6 +82,7 @@ img {
         text-align: center;
         li {
             @extend %display;
+            color : $light-font-color;
     
             margin: 10% 1%;
             position: relative;
@@ -104,4 +105,8 @@ img {
             }
         }
     }
+}
+
+.wrapper h2{
+    text-align: center;
 }

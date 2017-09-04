@@ -8,7 +8,7 @@ body {
 footer {
   background-color: black; }
 
-h1, h2, nav ul, nav ul li, #content ul li, #content ul li a {
+h1, nav ul, nav ul li, #content ul li, #content ul li a {
   display: inline-block; }
 
 a:hover, #content ul li a:hover {
@@ -147,6 +147,7 @@ img {
   background-color: black;
   text-align: center; }
   #content ul li {
+    color: grey;
     margin: 10% 1%;
     position: relative;
     text-align: center;
@@ -159,3 +160,6 @@ img {
       #content ul li a img {
         width: 100%;
         position: relative; }
+
+.wrapper h2 {
+  text-align: center; }

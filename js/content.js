@@ -21,6 +21,8 @@ searchName.addEventListener('click', ClearInputField);
 
 
 function GetMarvelData() {
+    if (resultsList.innerHTML != '')
+        resultsList.innerHTML = '';
 
     //Get value of text input 
     searchTitle.innerHTML = searchName.value;
@@ -44,54 +46,71 @@ function GetMarvelData() {
 
     promise.then(function(response) {
         return response.json();
-    }).then(processData).catch(function(error){console.log(error);});
+    }).then(processData).catch(function(error){
+        console.log(error);
+        let notFoundText = document.createTextNode("no comics found");
+        let liNode = document.createElement('li');
+
+        liNode.appendChild(notFoundText);
+        resultsList.appendChild(liNode);
+    });
 
 
     function processData (data) {
 
         //Parse data
-        var comicData = data;
+        let comicData = data;
         console.log("recieved data");
 
         //Do something with the data
-        var imagePath = "";
-        var imageExtension = "";
-        var comicLink = "";
-        var comicTitle = "";
-        var resultsArray = comicData.data.results;
+        let imagePath = "";
+        let imageExtension = "";
+        let comicLink = "";
+        let comicTitle = "";
+        let resultsArray = comicData.data.results;
 
-        for (var i = 0; i < resultsArray.length; i++) {
+        if (resultsArray.length > 0) {
 
-            //Get information from API results
-            imagePath = resultsArray[i].thumbnail.path;
-            imageExtension = resultsArray[i].thumbnail.extension;
-            comicLink = resultsArray[i].urls[0].url;
-            comicTitle = resultsArray[i].title;
+            for (let i = 0; i < resultsArray.length; i++) {
 
-            //Generate child nodes of the results list
-            var liNode = document.createElement('li');
+                //Get information from API results
+                imagePath = resultsArray[i].thumbnail.path;
+                imageExtension = resultsArray[i].thumbnail.extension;
+                comicLink = resultsArray[i].urls[0].url;
+                comicTitle = resultsArray[i].title;
 
-            var aNode = document.createElement('a');
+                //Generate child nodes of the results list
+                let liNode = document.createElement('li');
 
-            var imgNode = document.createElement('img');
+                let aNode = document.createElement('a');
 
-            var textNode = document.createTextNode(comicTitle);
+                let imgNode = document.createElement('img');
 
-            aNode.appendChild(imgNode);
-            aNode.appendChild(textNode);
-            liNode.appendChild(aNode);
-            resultsList.appendChild(liNode);
+                let textNode = document.createTextNode(comicTitle);
 
-            //Add href and target attributes to anchor tags
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
+                aNode.appendChild(imgNode);
+                aNode.appendChild(textNode);
+                liNode.appendChild(aNode);
+                resultsList.appendChild(liNode);
 
-            //Add src attribute for each link
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuildImagePath(imagePath, imageExtension));
-            //Add alt attribute for each link
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('alt', comicTitle);
+                //Add href and target attributes to anchor tags
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
+
+                //Add src attribute for each link
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuildImagePath(imagePath, imageExtension));
+                //Add alt attribute for each link
+                resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('alt', comicTitle);
 
             }
+        }else {
+            let notFoundText = document.createTextNode("no comics found");
+            let liNode = document.createElement('li');
+
+            liNode.appendChild(notFoundText);
+            resultsList.appendChild(liNode);
+        }
+
 
     };
 
