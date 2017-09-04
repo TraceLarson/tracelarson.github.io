@@ -1,9 +1,5 @@
 
 
-// Instantiate new instance of XHR object
-// var request = new XMLHttpRequest();
-// console.log('created XMLHttpRequest variable');
-
 const searchButton = document.getElementById('searchButton');
 const resultsList = document.getElementById('results');
 const content = document.getElementById('content');
@@ -50,6 +46,7 @@ function GetMarvelData() {
     promise.then(function(response) {
         return response.json();
     }).then(processData).catch(function(error){
+
         console.log(error);
 
         let notFoundText = document.createTextNode("Marvel API response error");
@@ -64,6 +61,7 @@ function GetMarvelData() {
 
         //Parse data
         let comicData = data;
+
         console.log("recieved data");
 
         //Do something with the data
@@ -85,11 +83,8 @@ function GetMarvelData() {
 
                 //Generate child nodes of the results list
                 let liNode = document.createElement('li');
-
                 let aNode = document.createElement('a');
-
                 let imgNode = document.createElement('img');
-
                 let textNode = document.createTextNode(comicTitle);
 
                 aNode.appendChild(imgNode);
