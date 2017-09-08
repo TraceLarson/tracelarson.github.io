@@ -8,7 +8,7 @@ body {
 footer {
   background-color: black; }
 
-h1, nav ul, nav ul li, #content ul li, #content ul li a {
+h1, nav ul li, #content ul li, #content ul li a {
   display: inline-block; }
 
 a:hover, #content ul li a:hover {
@@ -124,16 +124,21 @@ header {
         color: red;
         padding-left: 0; }
 
-nav ul {
-  content: "";
-  width: 18%;
-  height: 15px;
-  list-style: none;
-  position: relative;
-  left: 82%;
-  top: -50px; }
-  nav ul li {
-    position: relative; }
+nav {
+  background-color: blue;
+  display: inline-block;
+  width: 30%;
+  float: right;
+  text-align: right; }
+  nav ul {
+    background-color: yellow;
+    display: inline;
+    content: "";
+    width: 18%;
+    height: 15px;
+    list-style: none; }
+    nav ul li {
+      background-color: #800020; }
 
 img {
   width: 150px;
