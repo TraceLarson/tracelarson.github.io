@@ -51,8 +51,9 @@ button {
 nav {
     background-color: blue;
     display: inline-block;
-    width:30%;
-    float: right;
+    width: 20%;
+    position: absolute;
+    right: 0;
     text-align: right;
 
     ul {
@@ -90,39 +91,44 @@ img {
     background-color: $background-color;
     text-align: center;
 
+
     li {
       display: inline-block;
-      color: $light-font-color;
+/      color: $light-font-color;
       margin: 10% 1%;
       position: relative;
       text-align: center;
       background-color: $background-color;
-      max-height: 400px;
+      max-height: 399px;
       overflow: hidden;
-
-      img {
-        width: 100%;
-        position: relative;
-      }
+      width: 30%;
     }
   }
 }
 
-
 a {
+  padding-top: 0;
   display: inline-block;
-  position: relative;
   max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 400px;
+
   &:hover {
     @extend %hover;
   }
+}
+
+img {
+  width: 100%;
+  position: relative;
 }
 
 .wrapper h2{
     text-align: center;
 }
 
-// Breakpoints------------
+// Breakpoints------------ 926 text bumps up images
 
 // Content shifts from 3 column to 2 column
 @media (min-width: 900px){

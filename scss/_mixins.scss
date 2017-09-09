@@ -47,11 +47,11 @@
 
 @mixin mq($size) {
   @if $size == small {
-    @media(min-width: 500px) {
+    @media(max-width: 360px) {
       @content
     }
   } @else if $size == medium {
-    @media (min-width: 800px) {
+    @media (max-width: 580px) {
       @content
     }
   } @else if $size == large {
@@ -62,4 +62,4 @@
 }
 
 
-// use @include mq(large) to implement the large media query
+// use @include mq(large or medium or small) to implement the large media query

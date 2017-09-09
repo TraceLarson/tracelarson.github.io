@@ -127,8 +127,9 @@ button {
 nav {
   background-color: blue;
   display: inline-block;
-  width: 30%;
-  float: right;
+  width: 20%;
+  position: absolute;
+  right: 0;
   text-align: right; }
   nav ul {
     background-color: yellow;
@@ -153,21 +154,27 @@ img {
   text-align: center; }
   #content ul li {
     display: inline-block;
+    vertical-align: top;
     color: grey;
     margin: 10% 1%;
     position: relative;
     text-align: center;
     background-color: black;
-    max-height: 400px;
-    overflow: hidden; }
-    #content ul li img {
-      width: 100%;
-      position: relative; }
+    max-height: 399px;
+    overflow: hidden;
+    width: 30%; }
 
 a {
+  padding-top: 0;
   display: inline-block;
-  position: relative;
-  max-width: 250px; }
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 400px; }
+
+img {
+  width: 100%;
+  position: relative; }
 
 .wrapper h2 {
   text-align: center; }
