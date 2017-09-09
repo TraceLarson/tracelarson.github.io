@@ -1,3 +1,26 @@
+//
+// window.addEventListener("resize", throttleResize);
+//
+//
+// var resizeTimeout;
+//
+// function throttleResize() {
+//
+//     if (!resizeTimeout) { // ignore if already running
+//         resizeTimeout = setTimeout( ()=>{
+//             resizeTimeout = null;
+//             handleResize();
+//         }, ) //delay time
+//     }
+// }
+// function handleResize() {
+//
+//     // code to run on resize
+//
+// }
+
+
+
 
 
 const searchButton = document.getElementById('searchButton');

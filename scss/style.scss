@@ -15,35 +15,38 @@ header {
     height: 563px;
     box-shadow: 10px 10px 5px #888888;
 
-    form {
-        @include autoMargin();
-        margin-top: 200px;
 
-        p {
-            label {
-                display: inline-block;
-                text-indent: -9999px;
-            }
-
-            input {
-                @include input-form($form-width, $form-height);
-                background-image: url(../search-assets/search.png);
-                background-position: left top;
-                background-repeat: no-repeat;
-                background-size: auto 30px;
-
-            }
-            button {
-                @include button($button-width, $button-height);
-                display: inline-block;
-                position: relative;
-                float:left;
-                right: -90%;
-                top: -30px;
-            }
-        }
-    }
 }
+
+form {
+  @include autoMargin();
+  margin-top: 200px;
+
+}
+
+label {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+input {
+  @include input-form($form-width, $form-height);
+  background-image: url(../search-assets/search.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 30px;
+
+}
+
+button {
+  @include button($button-width, $button-height);
+  display: inline-block;
+  position: relative;
+  float:left;
+  right: -90%;
+  top: -30px;
+}
+
 
 nav {
     background-color: blue;
@@ -56,7 +59,7 @@ nav {
         background-color: yellow;
 
         display: inline;
-        content: "";
+        //content: "";
         width: 18%;
         height: 15px;
         list-style: none;
@@ -66,9 +69,8 @@ nav {
 
         li {
             background-color: #800020;
-            @extend %display;
+            display: inline-block;
             //position: relative;
-
         }
     }
 }
@@ -84,37 +86,52 @@ img {
 }
 
 #content {
-    ul {
-        background-color: $background-color;
-        text-align: center;
+  ul {
+    background-color: $background-color;
+    text-align: center;
 
-        li {
-            @extend %display;
-            color : $light-font-color;
-            margin: 10% 1%;
-            position: relative;
-            text-align: center;
-            background-color: $background-color;
-            max-height: 400px;
-            overflow: hidden;
+    li {
+      display: inline-block;
+      color: $light-font-color;
+      margin: 10% 1%;
+      position: relative;
+      text-align: center;
+      background-color: $background-color;
+      max-height: 400px;
+      overflow: hidden;
 
-            a {
-                @extend %display;
-                position: relative;
-                max-width: 250px;
-                &:hover {
-                    @extend %hover;
-                }
-
-                img {
-                    width: 100%;
-                    position: relative;
-                }
-            }
-        }
+      img {
+        width: 100%;
+        position: relative;
+      }
     }
+  }
+}
+
+
+a {
+  display: inline-block;
+  position: relative;
+  max-width: 250px;
+  &:hover {
+    @extend %hover;
+  }
 }
 
 .wrapper h2{
     text-align: center;
+}
+
+// Breakpoints------------
+
+// Content shifts from 3 column to 2 column
+@media (min-width: 900px){
+}
+
+//Content shits from 2 columns to 1 column
+@media (min-width: 580px){
+}
+
+//nav breaks
+@media (min-width: 500px){
 }

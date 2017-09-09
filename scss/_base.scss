@@ -10,7 +10,7 @@ body {
 }
 
 footer{
-    @extend %backgroundColor;
+    background-color: $background-color;
     text-align: center;
 }
 

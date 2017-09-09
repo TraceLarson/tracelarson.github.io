@@ -5,16 +5,10 @@ body {
   background: -moz-linear-gradient(white, black);
   background: linear-gradient(white, black); }
 
-footer {
-  background-color: black; }
-
-h1, nav ul li, #content ul li, #content ul li a {
-  display: inline-block; }
-
-a:hover, #content ul li a:hover {
+a:hover {
   color: white; }
 
-header form p input, header form p button:hover {
+input, button:hover {
   border: 1px solid red;
   background-color: black;
   padding-left: 3.5rem; }
@@ -28,9 +22,11 @@ body {
   color: black; }
 
 footer {
+  background-color: black;
   text-align: center; }
 
 h1 {
+  display: inline-block;
   background: red;
   color: white;
   font-weight: bolder;
@@ -81,48 +77,52 @@ header {
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888; }
-  header form {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 900px;
-    position: relative;
-    margin-top: 200px; }
-    header form p label {
-      display: inline-block;
-      text-indent: -9999px; }
-    header form p input {
-      outline: none;
-      width: 90%;
-      height: 30px;
-      color: red;
-      background: black;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      background-image: url(../search-assets/search.png);
-      background-position: left top;
-      background-repeat: no-repeat;
-      background-size: auto 30px; }
-      header form p input:focus {
-        background-color: black; }
-    header form p button {
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      outline: none;
-      width: 55px;
-      height: 30px;
-      background-color: red;
-      margin-left: 0;
-      display: inline-block;
-      position: relative;
-      float: left;
-      right: -90%;
-      top: -30px; }
-      header form p button:hover {
-        background-color: black;
-        color: red;
-        padding-left: 0; }
+
+form {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+  position: relative;
+  margin-top: 200px; }
+
+label {
+  display: inline-block;
+  text-indent: -9999px; }
+
+input {
+  outline: none;
+  width: 90%;
+  height: 30px;
+  color: red;
+  background: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  background-image: url(../search-assets/search.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 30px; }
+  input:focus {
+    background-color: black; }
+
+button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  outline: none;
+  width: 55px;
+  height: 30px;
+  background-color: red;
+  margin-left: 0;
+  display: inline-block;
+  position: relative;
+  float: left;
+  right: -90%;
+  top: -30px; }
+  button:hover {
+    background-color: black;
+    color: red;
+    padding-left: 0; }
 
 nav {
   background-color: blue;
@@ -133,12 +133,12 @@ nav {
   nav ul {
     background-color: yellow;
     display: inline;
-    content: "";
     width: 18%;
     height: 15px;
     list-style: none; }
     nav ul li {
-      background-color: #800020; }
+      background-color: #800020;
+      display: inline-block; }
 
 img {
   width: 150px;
@@ -152,6 +152,7 @@ img {
   background-color: black;
   text-align: center; }
   #content ul li {
+    display: inline-block;
     color: grey;
     margin: 10% 1%;
     position: relative;
@@ -159,12 +160,14 @@ img {
     background-color: black;
     max-height: 400px;
     overflow: hidden; }
-    #content ul li a {
-      position: relative;
-      max-width: 250px; }
-      #content ul li a img {
-        width: 100%;
-        position: relative; }
+    #content ul li img {
+      width: 100%;
+      position: relative; }
+
+a {
+  display: inline-block;
+  position: relative;
+  max-width: 250px; }
 
 .wrapper h2 {
   text-align: center; }
