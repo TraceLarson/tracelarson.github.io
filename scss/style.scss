@@ -49,7 +49,7 @@ button {
 
 
 nav {
-    background-color: blue;
+    //background-color: blue;
     display: inline-block;
     width: 20%;
     float:right;
@@ -57,28 +57,43 @@ nav {
 
 
     ul {
-        background-color: yellow;
+        //background-color: yellow;
 
         display: inline;
         width: 18%;
         height: 15px;
         list-style: none;
-
         @include mq(large){
           //hide menu and show hamburger icon, until mouseover
-          background: url() center cover no-repeat;
-          display: block;
-          //float: right;
-          &:hover{
 
+          background: url(../images/marvel_comics_collage_header.jpg) center / cover no-repeat;
+          width: 50px;
+          height: 50px;
+          text-indent: -9999px;
+          float: right;
+          &:hover{
+            text-indent: 0;
+            //display: block;
+
+            li {
+              display: block;
+              width: 60px;
+              background-color: #800020;
+              text-align: right;
+              position: relative;
+              right: 10px;
+              top: 50px;
+            }
+            }
           }
         }
 
         li {
-            background-color: #800020;
+            //background-color: #800020;
             display: inline-block;
         }
-    }
+
+
 }
 
 img {

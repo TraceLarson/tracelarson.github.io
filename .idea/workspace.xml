@@ -4,7 +4,6 @@
     <list default="true" id="fd2aeafc-2132-4d61-916f-9d2db26a8552" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_mixins.scss" afterPath="$PROJECT_DIR$/scss/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -82,14 +81,14 @@
             <state relative-caret-position="161">
               <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <marker date="1505003346000" expanded="true" signature="2729:2731" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="2737:2772" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="2782:2820" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="2834:2886" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="2904:3134" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="3138:3272" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="3278:3318" ph="{...}" />
-                <marker date="1505003346000" expanded="true" signature="3332:3357" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3078:3080" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3086:3121" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3131:3169" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3183:3235" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3253:3483" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3487:3621" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3627:3667" ph="{...}" />
+                <marker date="1505005821000" expanded="true" signature="3681:3706" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -391,7 +390,7 @@
       <workItem from="1504420783004" duration="18711000" />
       <workItem from="1504885363086" duration="1216000" />
       <workItem from="1504982315265" duration="2981000" />
-      <workItem from="1504991793339" duration="8367000" />
+      <workItem from="1504991793339" duration="10156000" />
     </task>
     <task id="LOCAL-00001" summary="updating project">
       <created>1504421238877</created>
@@ -526,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504998300051</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="adding hamburger menu and for breakpoints on navigation.">
+      <created>1505003425328</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1505003425328</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42088000" />
+    <option name="totallyTimeSpent" value="43877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="907" y="23" width="1013" height="1113" extended-state="0" />
@@ -542,20 +548,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33545816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14455152" sideWeight="0.50278884" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +587,8 @@
     <MESSAGE value="cleaning up code" />
     <MESSAGE value="more code cleaning" />
     <MESSAGE value="aligning content to add breakpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="aligning content to add breakpoints" />
+    <MESSAGE value="adding hamburger menu and for breakpoints on navigation." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding hamburger menu and for breakpoints on navigation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -941,14 +948,14 @@
         <state relative-caret-position="161">
           <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <marker date="1505003346000" expanded="true" signature="2729:2731" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="2737:2772" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="2782:2820" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="2834:2886" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="2904:3134" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="3138:3272" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="3278:3318" ph="{...}" />
-            <marker date="1505003346000" expanded="true" signature="3332:3357" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3078:3080" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3086:3121" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3131:3169" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3183:3235" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3253:3483" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3487:3621" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3627:3667" ph="{...}" />
+            <marker date="1505005821000" expanded="true" signature="3681:3706" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -963,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding />
         </state>
       </provider>
