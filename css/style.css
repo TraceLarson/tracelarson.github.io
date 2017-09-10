@@ -128,15 +128,17 @@ nav {
   background-color: blue;
   display: inline-block;
   width: 20%;
-  position: absolute;
-  right: 0;
-  text-align: right; }
+  float: right; }
   nav ul {
     background-color: yellow;
     display: inline;
     width: 18%;
     height: 15px;
     list-style: none; }
+    @media (max-width: 743px) {
+      nav ul {
+        background: url() center cover no-repeat;
+        display: block; } }
     nav ul li {
       background-color: #800020;
       display: inline-block; }
@@ -153,14 +155,14 @@ img {
   background-color: black;
   text-align: center; }
   #content ul li {
-    display: inline-block;
     vertical-align: top;
+    display: inline-block;
     color: grey;
     margin: 10% 1%;
     position: relative;
     text-align: center;
     background-color: black;
-    max-height: 399px;
+    max-height: 400px;
     overflow: hidden;
     width: 30%; }
 
