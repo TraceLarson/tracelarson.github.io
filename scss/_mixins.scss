@@ -55,7 +55,7 @@
       @content
     }
   } @else if $size == large {
-    @media (max-width: 743px) {
+    @media (max-width: 760px) {
       @content
     }
   }

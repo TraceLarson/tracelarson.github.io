@@ -65,31 +65,31 @@ nav {
         list-style: none;
         @include mq(large){
           //hide menu and show hamburger icon, until mouseover
-
-          background: url(../images/marvel_comics_collage_header.jpg) center / cover no-repeat;
+          background: url(../images/menu.png) center / cover no-repeat;
+          margin-right: 5px;
           width: 50px;
           height: 50px;
           text-indent: -9999px;
           float: right;
           &:hover{
             text-indent: 0;
-            //display: block;
-
             li {
               display: block;
-              width: 60px;
+              width: 70px;
               background-color: #800020;
-              text-align: right;
+              padding: 5px 5px 5px 5px;
+              border: 1px solid white;
+              text-align: left;
               position: relative;
               right: 10px;
               top: 50px;
             }
+
             }
           }
         }
 
         li {
-            //background-color: #800020;
             display: inline-block;
         }
 
