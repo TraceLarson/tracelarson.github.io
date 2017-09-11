@@ -10,7 +10,7 @@
 
 header {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   background: white url('../images/marvel_bandw1.jpg') center / cover no-repeat;
   min-height: 200px;
@@ -22,14 +22,15 @@ header {
 form {
   //@include autoMargin();
   //margin-top: 200px;
-  //background-color: brown;
+  background-color: brown;
 
-  //display: flex;
-  //flex-flow: row wrap;
-  //align-self: flex-end;
-  //justify-content: flex-end;
-  //width: 100%;
-  //margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-self: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  margin: auto;
+  align-content: stretch;
 
 }
 
@@ -39,6 +40,8 @@ label {
 }
 
 input {
+  display: flex;
+  flex: 1 1 auto;
   @include input-form($form-width, $form-height);
 
   background-image: url(../search-assets/search.png);
@@ -49,17 +52,17 @@ input {
 }
 
 button {
+  flex: 1 1 auto;
   @include button($button-width, $button-height);
-  display: inline-block;
-  position: relative;
-  float: left;
-  right: -90%;
-  top: -30px;
+  //display: inline-block;
+  //position: relative;
+  //float: left;
+  //right: -90%;
+  //top: -30px;
 }
 
 nav {
-  //flex: 1 1 auto;
-  align-self: flex-end;
+
   ul {
     display: flex;
     flex-flow: row nowrap;
