@@ -26,7 +26,9 @@ footer {
   text-align: center; }
 
 h1 {
-  display: inline-block;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 10%;
   background: red;
   color: white;
   font-weight: bolder;
@@ -34,7 +36,6 @@ h1 {
   font-size: 3rem;
   text-align: center; }
   h1 em {
-    display: block;
     font-size: 2rem;
     font-weight: lighter;
     background: black; }
@@ -72,18 +73,13 @@ footer h3 {
   position: relative; }
 
 header {
-  background: url("../images/marvel_bandw1.jpg") center/cover no-repeat;
-  overflow: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background: white url("../images/marvel_bandw1.jpg") center/cover no-repeat;
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888; }
-
-form {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 900px;
-  position: relative;
-  margin-top: 200px; }
 
 label {
   display: inline-block;
@@ -125,26 +121,25 @@ button {
     padding-left: 0; }
 
 nav {
-  display: inline-block;
-  width: 20%;
-  float: right; }
+  align-self: flex-end; }
   nav ul {
-    display: inline;
-    width: 18%;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: yellow;
+    width: 20%;
     height: 15px;
     list-style: none; }
     @media (max-width: 760px) {
       nav ul {
+        flex-flow: column nowrap;
         background: url(../images/menu.png) center/cover no-repeat;
         margin-right: 5px;
         width: 50px;
         height: 50px;
-        text-indent: -9999px;
-        float: right; }
+        text-indent: -9999px; }
         nav ul:hover {
           text-indent: 0; }
           nav ul:hover li {
-            display: block;
             width: 70px;
             background-color: #800020;
             padding: 5px 5px 5px 5px;
@@ -175,7 +170,7 @@ img {
     position: relative;
     text-align: center;
     background-color: black;
-    max-height: 400px;
+    max-height: 399px;
     overflow: hidden;
     width: 30%; }
 

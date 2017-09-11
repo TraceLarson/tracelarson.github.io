@@ -1,5 +1,8 @@
 h1 {
-    display: inline-block;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 10%;
+
     background: red;
     color: white;
     font-weight: bolder;
@@ -8,7 +11,6 @@ h1 {
     text-align: center;
     
     em {
-        display: block;
         font-size: 2rem;
         font-weight: lighter;
         background: $background-color;

@@ -30,7 +30,7 @@
 }
 
 @mixin button($button-width, $button-height ){
-    @include border-radius($radius);
+    @include border-radius($radius)
     outline: none;
     width: $button-width;
     height: $button-height;
