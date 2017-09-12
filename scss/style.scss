@@ -122,31 +122,38 @@ img {
 
 #content {
   ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     background-color: $background-color;
     text-align: center;
 
     li {
-      vertical-align: top;
-      display: inline-block;
+      background: grey;
+      display: flex;
+      flex-flow: column wrap;
+      //vertical-align: top;
+      //display: inline-block;
       color: $light-font-color;
       margin: 10% 1%;
       position: relative;
       text-align: center;
       background-color: $background-color;
-      max-height: 399px;
-      overflow: hidden;
-      width: 30%;
+      //max-height: 399px;
+      //overflow: hidden;
+      //width: 30%;
     }
   }
 }
 
 a {
   padding-top: 0;
-  display: inline-block;
+  //display: inline-block;
   max-width: 250px;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-height: 400px;
+  //max-height: 400px;
 
   &:hover {
     @extend %hover;

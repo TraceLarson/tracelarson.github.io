@@ -171,27 +171,27 @@ img {
   height: 0px; }
 
 #content ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
   background-color: black;
   text-align: center; }
   #content ul li {
-    vertical-align: top;
-    display: inline-block;
+    background: grey;
+    display: flex;
+    flex-flow: column wrap;
     color: grey;
     margin: 10% 1%;
     position: relative;
     text-align: center;
-    background-color: black;
-    max-height: 399px;
-    overflow: hidden;
-    width: 30%; }
+    background-color: black; }
 
 a {
   padding-top: 0;
-  display: inline-block;
   max-width: 250px;
   overflow: hidden;
-  text-overflow: ellipsis;
-  max-height: 400px; }
+  text-overflow: ellipsis; }
 
 img {
   width: 100%;
