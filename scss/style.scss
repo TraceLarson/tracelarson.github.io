@@ -12,25 +12,33 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: flex-start;
   background: white url('../images/marvel_bandw1.jpg') center / cover no-repeat;
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888;
 
 }
+#search{
+  //background-color: brown;
+  //order: 2;
+  align-self: flex-end;
+  margin-bottom: auto;
+  margin-top: auto;
+
+  //align-content: stretch;
+  width: 100%;
+
+}
 
 form {
   //@include autoMargin();
   //margin-top: 200px;
-  background-color: brown;
 
   display: flex;
   flex-flow: row nowrap;
-  align-self: flex-end;
-  justify-content: flex-start;
   width: 100%;
   margin: auto;
-  align-content: stretch;
 
 }
 
@@ -62,10 +70,10 @@ button {
 }
 
 nav {
-
+  order: 3;
   ul {
     display: flex;
-    flex-flow: row nowrap;
+    //flex-flow: row nowrap;
     background-color: yellow;
 
     width: 20%;
