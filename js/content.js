@@ -4,6 +4,7 @@ const resultsList = document.getElementById('results');
 const content = document.getElementById('content');
 const searchName = document.getElementById('searchString');
 const searchTitle = document.getElementById('contentTitle');
+const navMenu = document.getElementById('navigation');
 
 //Hide the content until the user searches
 content.setAttribute('class', 'hidden');
@@ -27,6 +28,8 @@ searchName.addEventListener('keypress', function (event) {
 });
 
 //Event listeners for submitting the form, clearing the input field and the content, if present.
+navMenu.addEventListener('click', OpenNav);
+
 searchButton.addEventListener('click', ClearContent);
 searchButton.addEventListener('click', GetMarvelData);
 searchName.addEventListener('click', ClearInputField);
@@ -147,6 +150,34 @@ function ClearContent() {
     while (resultsList.firstChild) {
         resultsList.removeChild(resultsList.firstChild);
     }
-    ;
-
 }
+
+function OpenNav(){
+    if(window.innerWidth <= 760) {
+        console.log('clicked nav button');
+        navMenu.firstChild.className = 'open';
+
+    }
+}
+
+// text-indent: 0;
+// li {
+//     width: 150px;
+//     height: 100px;
+//     background-color: #800020;
+//     padding: 5px 5px 5px 5px;
+//     border: 1px solid white;
+//     text-align: left;
+//     position: relative;
+//     right: 100px;
+//     top: 50px;
+// }
+
+
+
+
+
+
+
+
+
