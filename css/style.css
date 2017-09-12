@@ -133,11 +133,13 @@ button {
     padding-left: 0; }
 
 nav {
-  order: 3; }
+  order: 3;
+  width: 20%; }
   nav ul {
     display: flex;
-    background-color: yellow;
-    width: 20%;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 30%;
     height: 15px;
     list-style: none; }
     @media (max-width: 760px) {
@@ -151,16 +153,18 @@ nav {
         nav ul:hover {
           text-indent: 0; }
           nav ul:hover li {
-            width: 70px;
+            width: 150px;
+            height: 100px;
             background-color: #800020;
             padding: 5px 5px 5px 5px;
             border: 1px solid white;
             text-align: left;
             position: relative;
-            right: 10px;
+            right: 100px;
             top: 50px; } }
   nav li {
-    display: inline-block; }
+    display: inline-block;
+    margin-left: 5px; }
 
 img {
   width: 150px;
@@ -182,20 +186,17 @@ img {
     display: flex;
     flex-flow: column wrap;
     color: grey;
-    margin: 10% 1%;
+    margin: 1% 1%;
     position: relative;
     text-align: center;
     background-color: black; }
 
 a {
   padding-top: 0;
-  max-width: 250px;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+  max-width: 250px; }
 
 img {
-  width: 100%;
-  position: relative; }
+  width: 100%; }
 
 .wrapper h2 {
   text-align: center; }

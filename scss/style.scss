@@ -20,26 +20,18 @@ header {
 
 }
 #search{
-  //background-color: brown;
-  //order: 2;
   align-self: flex-end;
   margin-bottom: auto;
   margin-top: auto;
-
-  //align-content: stretch;
   width: 100%;
 
 }
 
 form {
-  //@include autoMargin();
-  //margin-top: 200px;
-
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
   margin: auto;
-
 }
 
 label {
@@ -51,7 +43,6 @@ input {
   display: flex;
   flex: 1 1 auto;
   @include input-form($form-width, $form-height);
-
   background-image: url(../search-assets/search.png);
   background-position: left top;
   background-repeat: no-repeat;
@@ -62,25 +53,19 @@ input {
 button {
   flex: 1 1 auto;
   @include button($button-width, $button-height);
-  //display: inline-block;
-  //position: relative;
-  //float: left;
-  //right: -90%;
-  //top: -30px;
 }
 
 nav {
   order: 3;
+  width: 20%;
   ul {
     display: flex;
-    //flex-flow: row nowrap;
-    background-color: yellow;
-
-    width: 20%;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 30%;
     height: 15px;
     list-style: none;
     @include mq(large) {
-      //hide menu and show hamburger icon, until mouseover
       flex-flow: column nowrap;
       background: url(../images/menu.png) center / cover no-repeat;
       margin-right: 5px;
@@ -90,13 +75,14 @@ nav {
       &:hover {
         text-indent: 0;
         li {
-          width: 70px;
+          width: 150px;
+          height: 100px;
           background-color: #800020;
           padding: 5px 5px 5px 5px;
           border: 1px solid white;
           text-align: left;
           position: relative;
-          right: 10px;
+          right: 100px;
           top: 50px;
         }
 
@@ -106,6 +92,7 @@ nav {
 
   li {
     display: inline-block;
+    margin-left: 5px;
   }
 
 }
@@ -136,7 +123,7 @@ img {
       //vertical-align: top;
       //display: inline-block;
       color: $light-font-color;
-      margin: 10% 1%;
+      margin: 1% 1%;
       position: relative;
       text-align: center;
       background-color: $background-color;
@@ -151,8 +138,8 @@ a {
   padding-top: 0;
   //display: inline-block;
   max-width: 250px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  //overflow: hidden;
+  //text-overflow: ellipsis;
   //max-height: 400px;
 
   &:hover {
@@ -162,7 +149,7 @@ a {
 
 img {
   width: 100%;
-  position: relative;
+  //position: relative;
 }
 
 .wrapper h2 {
