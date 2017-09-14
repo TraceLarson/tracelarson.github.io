@@ -157,6 +157,12 @@ function ClearContent() {
 }
 
 function OpenNav(){
+    window.addEventListener('resize', function(){
+        if(window.innerWidth > 740 && menu.hasAttribute('class')){
+            menu.removeAttribute('class');
+        }
+    });
+
     if(window.innerWidth <= 760 && !menu.hasAttribute('class')) {
         menu.setAttribute('class', 'openMenu');
 
@@ -164,6 +170,8 @@ function OpenNav(){
         menu.removeAttribute('class');
 
     }
+
+
 }
 
 

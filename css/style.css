@@ -153,10 +153,11 @@ nav {
       margin-left: 5px; }
 
 .openMenu {
-  text-indent: 0; }
+  text-indent: 0;
+  background: url(../images/close.png) center/cover no-repeat; }
   .openMenu li {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     background-color: #800020;
     padding: 5px 5px 5px 5px;
     border: 1px solid white;
