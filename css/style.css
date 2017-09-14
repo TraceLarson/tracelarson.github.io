@@ -13,6 +13,10 @@ input, button:hover {
   background-color: black;
   padding-left: 3.5rem; }
 
+header, form, nav ul {
+  display: flex;
+  flex-flow: row nowrap; }
+
 html {
   font-size: 10px; }
 
@@ -74,8 +78,6 @@ footer h3 {
   position: relative; }
 
 header {
-  display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
   background: white url("../images/marvel_bandw1.jpg") center/cover no-repeat;
@@ -90,8 +92,6 @@ header {
   width: 100%; }
 
 form {
-  display: flex;
-  flex-flow: row nowrap;
   width: 100%;
   margin: auto; }
 
@@ -136,8 +136,6 @@ nav {
   order: 3;
   width: 20%; }
   nav ul {
-    display: flex;
-    flex-flow: row nowrap;
     justify-content: flex-start;
     width: 30%;
     height: 15px;
@@ -150,9 +148,9 @@ nav {
         width: 50px;
         height: 50px;
         text-indent: -9999px; } }
-  nav li {
-    display: inline-block;
-    margin-left: 5px; }
+    nav ul li {
+      display: inline-block;
+      margin-left: 5px; }
 
 .openMenu {
   text-indent: 0; }
@@ -167,13 +165,13 @@ nav {
     right: 100px;
     top: 50px; }
 
-img {
+/*img {
   width: 150px;
-  height: auto; }
-
+  height: auto;
+}*/
 .hidden {
   overflow: hidden;
-  height: 0px; }
+  height: 0; }
 
 #content ul {
   display: flex;
@@ -183,7 +181,6 @@ img {
   background-color: black;
   text-align: center; }
   #content ul li {
-    background: grey;
     display: flex;
     flex-flow: column wrap;
     color: grey;
@@ -201,14 +198,3 @@ img {
 
 .wrapper h2 {
   text-align: center; }
-
-/*
-@media (min-width: 900px) {
-}
-
-@media (min-width: 580px) {
-}
-
-@media (min-width: 500px) {
-}
-*/

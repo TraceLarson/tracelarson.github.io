@@ -9,8 +9,7 @@
 }
 
 header {
-  display: flex;
-  flex-flow: row nowrap;
+  @extend %flex;
   justify-content: space-between;
   align-items: flex-start;
   background: white url('../images/marvel_bandw1.jpg') center / cover no-repeat;
@@ -28,8 +27,7 @@ header {
 }
 
 form {
-  display: flex;
-  flex-flow: row nowrap;
+  @extend %flex;
   width: 100%;
   margin: auto;
 }
@@ -59,8 +57,7 @@ nav {
   order: 3;
   width: 20%;
   ul {
-    display: flex;
-    flex-flow: row nowrap;
+    @extend %flex;
     justify-content: flex-start;
     width: 30%;
     height: 15px;
@@ -72,15 +69,12 @@ nav {
       width: 50px;
       height: 50px;
       text-indent: -9999px;
-
+    }
+    li {
+      display: inline-block;
+      margin-left: 5px;
     }
   }
-
-  li {
-    display: inline-block;
-    margin-left: 5px;
-  }
-
 }
 
 .openMenu {
@@ -99,14 +93,14 @@ nav {
 
 }
 
-img {
+/*img {
   width: 150px;
   height: auto;
-}
+}*/
 
 .hidden {
   overflow: hidden;
-  height: 0px;
+  height: 0;
 }
 
 #content {
@@ -119,7 +113,6 @@ img {
     text-align: center;
 
     li {
-      background: grey;
       display: flex;
       flex-flow: column wrap;
       color: $light-font-color;
@@ -146,14 +139,3 @@ img {
 .wrapper h2 {
   text-align: center;
 }
-
-/*
-@media (min-width: 900px) {
-}
-
-@media (min-width: 580px) {
-}
-
-@media (min-width: 500px) {
-}
-*/

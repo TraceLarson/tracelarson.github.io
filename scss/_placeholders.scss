@@ -15,3 +15,8 @@
     background-color: $background-color;
     padding-left: 3.5rem;
 }
+
+%flex {
+    display: flex;
+    flex-flow: row nowrap;
+}
