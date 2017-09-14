@@ -72,27 +72,29 @@ nav {
       width: 50px;
       height: 50px;
       text-indent: -9999px;
-      &:hover {
-        text-indent: 0;
-        li {
-          width: 150px;
-          height: 100px;
-          background-color: #800020;
-          padding: 5px 5px 5px 5px;
-          border: 1px solid white;
-          text-align: left;
-          position: relative;
-          right: 100px;
-          top: 50px;
-        }
 
-      }
     }
   }
 
   li {
     display: inline-block;
     margin-left: 5px;
+  }
+
+}
+
+.openMenu {
+  text-indent: 0;
+  li {
+    width: 150px;
+    height: 100px;
+    background-color: #800020;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 50px;
   }
 
 }
@@ -120,28 +122,18 @@ img {
       background: grey;
       display: flex;
       flex-flow: column wrap;
-      //vertical-align: top;
-      //display: inline-block;
       color: $light-font-color;
       margin: 1% 1%;
       position: relative;
       text-align: center;
       background-color: $background-color;
-      //max-height: 399px;
-      //overflow: hidden;
-      //width: 30%;
     }
   }
 }
 
 a {
   padding-top: 0;
-  //display: inline-block;
   max-width: 250px;
-  //overflow: hidden;
-  //text-overflow: ellipsis;
-  //max-height: 400px;
-
   &:hover {
     @extend %hover;
   }
@@ -149,13 +141,13 @@ a {
 
 img {
   width: 100%;
-  //position: relative;
 }
 
 .wrapper h2 {
   text-align: center;
 }
 
+/*
 @media (min-width: 900px) {
 }
 
@@ -164,3 +156,4 @@ img {
 
 @media (min-width: 500px) {
 }
+*/

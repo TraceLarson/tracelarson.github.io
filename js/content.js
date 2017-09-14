@@ -4,7 +4,11 @@ const resultsList = document.getElementById('results');
 const content = document.getElementById('content');
 const searchName = document.getElementById('searchString');
 const searchTitle = document.getElementById('contentTitle');
-const navMenu = document.getElementById('navigation');
+const nav = document.getElementById('navigation');
+const menu =  nav.getElementsByTagName('ul')[0];
+
+console.log(menu);
+
 
 //Hide the content until the user searches
 content.setAttribute('class', 'hidden');
@@ -28,7 +32,7 @@ searchName.addEventListener('keypress', function (event) {
 });
 
 //Event listeners for submitting the form, clearing the input field and the content, if present.
-navMenu.addEventListener('click', OpenNav);
+nav.addEventListener('click', OpenNav);
 
 searchButton.addEventListener('click', ClearContent);
 searchButton.addEventListener('click', GetMarvelData);
@@ -153,25 +157,14 @@ function ClearContent() {
 }
 
 function OpenNav(){
-    if(window.innerWidth <= 760) {
-        console.log('clicked nav button');
-        navMenu.firstChild.className = 'open';
+    if(window.innerWidth <= 760 && !menu.hasAttribute('class')) {
+        menu.setAttribute('class', 'openMenu');
+
+    }else if(window.innerWidth <= 760 && menu.hasAttribute('class')) {
+        menu.removeAttribute('class', 'openMenu');
 
     }
 }
-
-// text-indent: 0;
-// li {
-//     width: 150px;
-//     height: 100px;
-//     background-color: #800020;
-//     padding: 5px 5px 5px 5px;
-//     border: 1px solid white;
-//     text-align: left;
-//     position: relative;
-//     right: 100px;
-//     top: 50px;
-// }
 
 
 
