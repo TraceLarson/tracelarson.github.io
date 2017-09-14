@@ -59,7 +59,7 @@ nav {
     @extend %flex;
     justify-content: flex-start;
     width: 30%;
-    height: 15px;
+    height: 25px;
     list-style: none;
     @include mq(large) {
       flex-flow: column nowrap;
@@ -81,7 +81,7 @@ nav {
   background: url(../images/close.png) center / cover no-repeat;
   li {
     width: 200px;
-    height: 150px;
+    height: 200px;
     background-color: #800020;
     padding: 5px 5px 5px 5px;
     border: 1px solid white;
