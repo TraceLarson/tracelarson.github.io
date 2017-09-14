@@ -139,7 +139,7 @@ function processData(data) {
 //Build the image path using the path and extension.
 function BuildImagePath(path, ext) {
 
-    var fullImagePath = path + '/portrait_xlarge.' + ext;
+    let fullImagePath = path + '/portrait_xlarge.' + ext;
     return fullImagePath;
 
 }
@@ -161,7 +161,7 @@ function OpenNav(){
         menu.setAttribute('class', 'openMenu');
 
     }else if(window.innerWidth <= 760 && menu.hasAttribute('class')) {
-        menu.removeAttribute('class', 'openMenu');
+        menu.removeAttribute('class');
 
     }
 }

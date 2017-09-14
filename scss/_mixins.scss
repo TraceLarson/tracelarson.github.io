@@ -1,5 +1,3 @@
-
-
 @mixin autoMargin() {
     margin: 0 auto;
     width: 90%;
@@ -11,8 +9,6 @@
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
-
-  
 }
 
 @mixin input-form($form-width, $form-height) {
@@ -26,7 +22,6 @@
     &:focus {
         background-color: $content-color;
     }
-
 }
 
 @mixin button($button-width, $button-height ){
@@ -42,24 +37,12 @@
         @extend %border;
         padding-left: 0;
     }
-
 }
 
 @mixin mq($size) {
-  @if $size == small {
-    @media(max-width: 360px) {
-      @content
-    }
-  } @else if $size == medium {
-    @media (max-width: 580px) {
-      @content
-    }
-  } @else if $size == large {
+  @if $size == large {
     @media (max-width: 760px) {
       @content
     }
   }
 }
-
-
-// use @include mq(large or medium or small) to implement the large media query
