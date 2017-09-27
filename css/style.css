@@ -13,10 +13,6 @@ input, button:hover {
   background-color: black;
   padding-left: 3.5rem; }
 
-header, form, nav ul {
-  display: flex;
-  flex-flow: row nowrap; }
-
 html {
   font-size: 10px; }
 
@@ -29,17 +25,20 @@ footer {
   background-color: black;
   text-align: center; }
 
+a {
+  padding-top: 0;
+  max-width: 250px; }
+
+img {
+  width: 100%; }
+
 h1 {
-  display: flex;
-  flex-flow: column nowrap;
-  height: 10%;
   background: red;
   color: white;
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 3rem;
-  text-align: center;
-  width: 200px; }
+  text-align: center; }
   h1 em {
     font-size: 2rem;
     font-weight: lighter;
@@ -78,21 +77,32 @@ footer h3 {
   position: relative; }
 
 header {
-  justify-content: space-between;
-  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
   background: white url("../images/marvel_bandw1.jpg") center/cover no-repeat;
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888; }
 
+#nav-header {
+  display: flex;
+  justify-content: space-between; }
+
+h1 {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 10%;
+  width: 200px; }
+
 #search {
-  align-self: flex-end;
-  margin-bottom: auto;
-  margin-top: auto;
-  width: 100%; }
+  display: flex;
+  flex-flow: column;
+  flex: 1; }
 
 form {
-  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
   margin: auto; }
 
 label {
@@ -101,7 +111,6 @@ label {
 
 input {
   display: flex;
-  flex: 1 1 auto;
   outline: none;
   width: 90%;
   height: 30px;
@@ -133,9 +142,10 @@ button {
     padding-left: 0; }
 
 nav {
-  order: 3;
   width: 20%; }
   nav ul {
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     width: 30%;
     height: 25px;
@@ -185,13 +195,6 @@ nav {
     position: relative;
     text-align: center;
     background-color: black; }
-
-a {
-  padding-top: 0;
-  max-width: 250px; }
-
-img {
-  width: 100%; }
 
 .wrapper h2 {
   text-align: center; }

@@ -1,33 +1,46 @@
-@import "variables.scss";
-@import "placeholders.scss";
-@import "mixins.scss";
-@import "base.scss";
-@import "typography.scss";
+@import "utils/variables.scss";
+@import "utils/placeholders.scss";
+@import "utils/mixins.scss";
+@import "base/base.scss";
+@import "typography/typography.scss";
 
 .wrapper {
   @include autoMargin();
 }
 
 header {
-  @extend %flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
   background: white url('../images/marvel_bandw1.jpg') center / cover no-repeat;
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888;
 
 }
-#search{
-  align-self: flex-end;
-  margin-bottom: auto;
-  margin-top: auto;
-  width: 100%;
+
+#nav-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 10%;
+  width: 200px;
+}
+
+#search {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+
 }
 
 form {
-  @extend %flex;
-  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
   margin: auto;
 }
 
@@ -38,7 +51,7 @@ label {
 
 input {
   display: flex;
-  flex: 1 1 auto;
+  //flex: 1 1 auto;
   @include input-form($form-width, $form-height);
   background-image: url(../search-assets/search.png);
   background-position: left top;
@@ -53,10 +66,11 @@ button {
 }
 
 nav {
-  order: 3;
+
   width: 20%;
   ul {
-    @extend %flex;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     width: 30%;
     height: 25px;
@@ -119,17 +133,7 @@ nav {
   }
 }
 
-a {
-  padding-top: 0;
-  max-width: 250px;
-  &:hover {
-    @extend %hover;
-  }
-}
 
-img {
-  width: 100%;
-}
 
 .wrapper h2 {
   text-align: center;
