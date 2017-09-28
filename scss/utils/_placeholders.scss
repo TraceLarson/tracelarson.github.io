@@ -20,3 +20,10 @@
     display: flex;
     flex-flow: row nowrap;
 }
+
+%autoMargin {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+}
