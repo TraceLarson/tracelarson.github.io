@@ -75,14 +75,14 @@ nav {
     width: 30%;
     height: 25px;
     list-style: none;
-    @include mq(large) {
-      flex-flow: column nowrap;
-      background: url(../images/menu.png) center / cover no-repeat;
-      margin-right: 5px;
-      width: 50px;
-      height: 50px;
-      text-indent: -9999px;
-    }
+    //@include mq(large) {
+    //  flex-flow: column nowrap;
+    //  background: url(../images/menu.png) center / cover no-repeat;
+    //  margin-right: 5px;
+    //  width: 50px;
+    //  height: 50px;
+    //  text-indent: -9999px;
+    //}
     li {
       display: inline-block;
       margin-left: 5px;

@@ -1,0 +1,27 @@
+html {
+    font-size: $font-size;
+}
+
+body {
+    font: 100% $font-stack;
+    font-size: 1.6rem;
+    color: $content-color;
+    @extend %backgroundGradient;
+}
+
+footer{
+    background-color: $background-color;
+    text-align: center;
+}
+
+a {
+    padding-top: 0;
+    max-width: 250px;
+    &:hover {
+        @extend %hover;
+    }
+}
+
+img {
+    width: 100%;
+}
