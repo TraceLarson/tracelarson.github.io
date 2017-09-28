@@ -14,7 +14,7 @@ console.log(menu);
 content.setAttribute('class', 'hidden');
 
 //Event listener for page load, to check if localy stored data is availaible
-window.addEventListener('load', function() {
+window.addEventListener('load', () => {
     if(localStorage.getItem('userData')){
         let localData = localStorage.getItem('userData');
         content.removeAttribute('class');
@@ -24,7 +24,7 @@ window.addEventListener('load', function() {
 });
 
 //Enable Enter key to submit form.
-searchName.addEventListener('keypress', function (event) {
+searchName.addEventListener('keypress', (event) => {
     if (event.keyCode == 13) {
         searchButton.click();
         event.preventDefault();
@@ -32,14 +32,14 @@ searchName.addEventListener('keypress', function (event) {
 });
 
 //Event listeners for submitting the form, clearing the input field and the content, if present.
-nav.addEventListener('click', OpenNav);
+nav.addEventListener('click', openNav);
 
-searchButton.addEventListener('click', ClearContent);
-searchButton.addEventListener('click', GetMarvelData);
-searchName.addEventListener('click', ClearInputField);
+searchButton.addEventListener('click', clearContent);
+searchButton.addEventListener('click', getMarvelData);
+searchName.addEventListener('click', clearInputField);
 
 
-function GetMarvelData() {
+function getMarvelData() {
 
     //Get value of text input 
     searchTitle.innerHTML = searchName.value;
@@ -57,9 +57,7 @@ function GetMarvelData() {
     console.log(url);
 
     //Create Fetch request
-    let promise = fetch(url);
-    console.log(promise);
-    promise.then(function (response) {
+    fetch(url).then( (response) => {
         return response.json();
     }).then(storeLocal).then(processData).catch(function (error) {
         console.log(error);
@@ -68,6 +66,7 @@ function GetMarvelData() {
         liNode.appendChild(notFoundText);
         resultsList.appendChild(liNode);
     });
+
 }
 
 //store search locally.
@@ -94,7 +93,7 @@ function processData(data) {
 
     if (resultsArray.length > 0) {
 
-        for (var i = 0; i < resultsArray.length; i++) {
+        for (let i = 0; i < resultsArray.length; i++) {
 
             //Get information from API results
             imagePath = resultsArray[i].thumbnail.path;
@@ -145,18 +144,18 @@ function BuildImagePath(path, ext) {
 }
 
 //Clear the input field.
-function ClearInputField() {
+function clearInputField() {
     searchName.value = '';
 }
 
 //clears the current content of the page.
-function ClearContent() {
+function clearContent() {
     while (resultsList.firstChild) {
         resultsList.removeChild(resultsList.firstChild);
     }
 }
 
-function OpenNav(){
+function openNav(){
     window.addEventListener('resize', function(){
         if(window.innerWidth > 740 && menu.hasAttribute('class')){
             menu.removeAttribute('class');
