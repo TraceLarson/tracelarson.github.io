@@ -59,7 +59,7 @@ function getMarvelData() {
     //Create Fetch request
     fetch(url).then( (response) => {
         return response.json();
-    }).then(storeLocal).then(processData).catch(function (error) {
+    }).then(storeLocal).then(processData).catch( (error) => {
         console.log(error);
         let notFoundText = document.createTextNode("Marvel API response error");
         let liNode = document.createElement('li');
