@@ -6,7 +6,8 @@ body {
   background: linear-gradient(white, black); }
 
 a:hover {
-  color: white; }
+  color: white;
+  background-color: red; }
 
 input, button:hover {
   border: 1px solid red;
@@ -33,6 +34,7 @@ footer {
 
 a {
   padding-top: 0;
+  color: red;
   max-width: 250px; }
 
 img {
@@ -59,9 +61,6 @@ h2 {
     display: inline-block;
     font-size: 2rem;
     font-weight: lighter; }
-
-a {
-  color: red; }
 
 footer h2 {
   background: black;
