@@ -66,7 +66,6 @@ button {
 }
 
 nav {
-  width: 20%;
   ul {
     display: flex;
     flex-flow: row nowrap;
@@ -74,36 +73,48 @@ nav {
     width: 30%;
     height: 25px;
     list-style: none;
+    li{
+      margin: 3px 3px 0 3px;
+    }
     @include mq(large) {
       flex-flow: column nowrap;
       background: url(../images/menu.png) center / cover no-repeat;
-      margin-right: 5px;
+      //margin-right: 5px;
       width: 50px;
       height: 50px;
       text-indent: -9999px;
-    }
-    li {
-      display: inline-block;
-      margin-left: 5px;
     }
   }
 }
 
 .openMenu {
   text-indent: 0;
-  background: url(../images/close.png) center / cover no-repeat;
+  background: $nav-background-color url(../images/close.png) center / cover no-repeat;
+  margin-bottom: 10px;
   li {
-    width: 200px;
+    margin: 0;
+    width: 1500%;
     height: 200px;
-    background-color: #800020;
+    background-color: $nav-background-color;
     padding: 5px 5px 5px 5px;
-    border: 1px solid white;
-    text-align: left;
+    text-align: right;
     position: relative;
-    right: 100px;
-    top: 50px;
+    right: 1400%;
+    top: 100px;
   }
 
+}
+
+.headerOpenMenu {
+  background: $nav-background-color;
+
+  h1{
+    color: transparent;
+    background: $nav-background-color;
+    em{
+      background: $nav-background-color;
+    }
+  }
 }
 
 .hidden {

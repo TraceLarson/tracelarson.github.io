@@ -14,15 +14,6 @@ footer{
     text-align: center;
 }
 
-a {
-    padding-top: 0;
-    color: $link-color;
-    max-width: 250px;
-    &:hover {
-        @extend %hover;
-    }
-}
-
 img {
     width: 100%;
 }

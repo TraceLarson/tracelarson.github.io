@@ -6,6 +6,7 @@ const searchName = document.getElementById('searchString');
 const searchTitle = document.getElementById('contentTitle');
 const nav = document.getElementById('navigation');
 const menu =  nav.getElementsByTagName('ul')[0];
+const header = document.getElementsByTagName('header')[0];
 
 console.log(menu);
 
@@ -107,19 +108,18 @@ function processData(data) {
             let imgNode = document.createElement('img');
             let textNode = document.createTextNode(comicTitle);
 
+            //Add href and target attributes to anchor tags
+            aNode.setAttribute('href', comicLink);
+            aNode.setAttribute('target', '_blank');
+
+            //Add src and alt attributes for each link
+            imgNode.setAttribute('src', BuildImagePath(imagePath, imageExtension));
+            imgNode.setAttribute('alt', comicTitle);
+
             aNode.appendChild(imgNode);
             aNode.appendChild(textNode);
             liNode.appendChild(aNode);
             resultsList.appendChild(liNode);
-
-            //Add href and target attributes to anchor tags
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('href', comicLink);
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttribute('target', '_blank');
-
-            //Add src attribute for each link
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('src', BuildImagePath(imagePath, imageExtension));
-            //Add alt attribute for each link
-            resultsList.getElementsByTagName('li')[i].getElementsByTagName('img')[0].setAttribute('alt', comicTitle);
 
         }
     } else {
@@ -159,17 +159,19 @@ function openNav(){
     window.addEventListener('resize', function(){
         if(window.innerWidth > 740 && menu.hasAttribute('class')){
             menu.removeAttribute('class');
+            header.removeAttribute('class');
         }
     });
 
     if(window.innerWidth <= 760 && !menu.hasAttribute('class')) {
         menu.setAttribute('class', 'openMenu');
+        header.setAttribute('class', 'headerOpenMenu');
 
     }else if(window.innerWidth <= 760 && menu.hasAttribute('class')) {
         menu.removeAttribute('class');
+        header.removeAttribute('class');
 
     }
-
 
 }
 

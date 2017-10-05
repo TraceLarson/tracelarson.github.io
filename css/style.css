@@ -32,11 +32,6 @@ footer {
   background-color: black;
   text-align: center; }
 
-a {
-  padding-top: 0;
-  color: red;
-  max-width: 250px; }
-
 img {
   width: 100%; }
 
@@ -74,6 +69,14 @@ footer h3 {
   font-size: .75em;
   font-style: normal;
   font-weight: lighter; }
+
+a {
+  padding-top: 0;
+  color: red;
+  max-width: 250px; }
+
+.openMenu a {
+  font-size: 5em; }
 
 header {
   display: flex;
@@ -140,40 +143,45 @@ button {
     color: red;
     padding-left: 0; }
 
-nav {
-  width: 20%; }
-  nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    width: 30%;
-    height: 25px;
-    list-style: none; }
-    @media (max-width: 760px) {
-      nav ul {
-        flex-flow: column nowrap;
-        background: url(../images/menu.png) center/cover no-repeat;
-        margin-right: 5px;
-        width: 50px;
-        height: 50px;
-        text-indent: -9999px; } }
-    nav ul li {
-      display: inline-block;
-      margin-left: 5px; }
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 30%;
+  height: 25px;
+  list-style: none; }
+  nav ul li {
+    margin: 3px 3px 0 3px; }
+  @media (max-width: 760px) {
+    nav ul {
+      flex-flow: column nowrap;
+      background: url(../images/menu.png) center/cover no-repeat;
+      width: 50px;
+      height: 50px;
+      text-indent: -9999px; } }
 
 .openMenu {
   text-indent: 0;
-  background: url(../images/close.png) center/cover no-repeat; }
+  background: #800020 url(../images/close.png) center/cover no-repeat;
+  margin-bottom: 10px; }
   .openMenu li {
-    width: 200px;
+    margin: 0;
+    width: 1500%;
     height: 200px;
     background-color: #800020;
     padding: 5px 5px 5px 5px;
-    border: 1px solid white;
-    text-align: left;
+    text-align: right;
     position: relative;
-    right: 100px;
-    top: 50px; }
+    right: 1400%;
+    top: 100px; }
+
+.headerOpenMenu {
+  background: #800020; }
+  .headerOpenMenu h1 {
+    color: transparent;
+    background: #800020; }
+    .headerOpenMenu h1 em {
+      background: #800020; }
 
 .hidden {
   overflow: hidden;

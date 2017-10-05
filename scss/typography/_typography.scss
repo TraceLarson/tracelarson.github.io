@@ -39,3 +39,18 @@ footer h3 {
     font-style: normal;
     font-weight: lighter;
 }
+
+a {
+    padding-top: 0;
+    color: $link-color;
+    max-width: 250px;
+    &:hover {
+        @extend %hover;
+    }
+}
+
+.openMenu{
+    a{
+        font-size: 5em;
+    }
+}
