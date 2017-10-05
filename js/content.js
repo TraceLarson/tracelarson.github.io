@@ -104,21 +104,28 @@ function processData(data) {
 
             //Generate child nodes of the results list
             let liNode = document.createElement('li');
-            let aNode = document.createElement('a');
+            let aNodeImg = document.createElement('a');
+            let aNodeTxt = document.createElement('a');
             let imgNode = document.createElement('img');
             let textNode = document.createTextNode(comicTitle);
 
             //Add href and target attributes to anchor tags
-            aNode.setAttribute('href', comicLink);
-            aNode.setAttribute('target', '_blank');
+            aNodeTxt.setAttribute('href', comicLink);
+            aNodeTxt.setAttribute('target', '_blank');
+
+            aNodeImg.setAttribute('href', comicLink);
+            aNodeImg.setAttribute('target', '_blank');
+            aNodeImg.setAttribute('class', 'anchorImage');
 
             //Add src and alt attributes for each link
             imgNode.setAttribute('src', BuildImagePath(imagePath, imageExtension));
             imgNode.setAttribute('alt', comicTitle);
 
-            aNode.appendChild(imgNode);
-            aNode.appendChild(textNode);
-            liNode.appendChild(aNode);
+            // aNode.appendChild(imgNode);
+            aNodeImg.appendChild(imgNode);
+            aNodeTxt.appendChild(textNode);
+            liNode.appendChild(aNodeImg);
+            liNode.appendChild(aNodeTxt);
             resultsList.appendChild(liNode);
 
         }

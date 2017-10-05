@@ -33,7 +33,7 @@ footer {
   text-align: center; }
 
 img {
-  width: 100%; }
+  width: 300px; }
 
 h1 {
   background: red;
@@ -74,6 +74,9 @@ a {
   padding-top: 0;
   color: red;
   max-width: 250px; }
+  @media (max-width: 579px) {
+    a {
+      font-size: 1.25em; } }
 
 .openMenu a {
   font-size: 5em; }
@@ -196,12 +199,26 @@ nav ul {
   text-align: center; }
   #content ul li {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     color: grey;
     margin: 1% 1%;
-    position: relative;
     text-align: center;
-    background-color: black; }
+    background-color: black;
+    border: 1px solid green; }
+    @media (max-width: 579px) {
+      #content ul li {
+        border: 3px solid green;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        flex-basis: 100%; }
+        #content ul li a {
+          flex: 2;
+          border: 3px solid blue; }
+        #content ul li .anchorImage {
+          flex: 1; }
+        #content ul li img {
+          width: 100%;
+          border: 3px solid purple; } }
 
 .wrapper h2 {
   text-align: center; }

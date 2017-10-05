@@ -1,41 +1,47 @@
 @mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
 }
 
 @mixin input-form($form-width, $form-height) {
-    outline: none;
-    width: $form-width;
-    height: $form-height;
-    color: $form-font-color;
-    background: $form-background-color;
-    @extend %border;
-    @include border-radius($radius);
-    &:focus {
-        background-color: $content-color;
-    }
+  outline: none;
+  width: $form-width;
+  height: $form-height;
+  color: $form-font-color;
+  background: $form-background-color;
+  @extend %border;
+  @include border-radius($radius);
+  &:focus {
+    background-color: $content-color;
+  }
 }
 
-@mixin button($button-width, $button-height ){
-    @include border-radius($radius);
-    outline: none;
-    width: $button-width;
-    height: $button-height;
-    background-color: $form-button-color;
-    margin-left: 0;
-    &:hover{
-        background-color: $form-background-color;
-        color: $form-font-color;
-        @extend %border;
-        padding-left: 0;
-    }
+@mixin button($button-width, $button-height ) {
+  @include border-radius($radius);
+  outline: none;
+  width: $button-width;
+  height: $button-height;
+  background-color: $form-button-color;
+  margin-left: 0;
+  &:hover {
+    background-color: $form-background-color;
+    color: $form-font-color;
+    @extend %border;
+    padding-left: 0;
+  }
 }
 
 @mixin mq($size) {
+  @if $size == small {
+    @media (max-width: 579px) {
+      @content
+    }
+  }
   @if $size == large {
     @media (max-width: 760px) {
       @content
     }
   }
+
 }

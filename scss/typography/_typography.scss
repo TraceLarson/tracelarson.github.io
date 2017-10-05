@@ -47,6 +47,9 @@ a {
     &:hover {
         @extend %hover;
     }
+    @include mq(small){
+        font-size: 1.25em;
+    }
 }
 
 .openMenu{

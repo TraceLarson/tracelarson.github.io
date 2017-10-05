@@ -131,16 +131,38 @@ nav {
     background-color: $background-color;
     text-align: center;
 
+
     li {
       display: flex;
-      flex-flow: column wrap;
+      flex-flow: column nowrap;
       color: $light-font-color;
       margin: 1% 1%;
-      position: relative;
       text-align: center;
       background-color: $background-color;
+      border: 1px solid green;
+
+      @include mq(small){
+        border: 3px solid green;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        flex-basis: 100%;
+        a{
+          flex: 2;
+          border: 3px solid blue;
+        }
+        .anchorImage{
+          flex: 1;
+        }
+        img{
+          width: 100%;
+          border: 3px solid purple;
+        }
+      }
     }
+
   }
+
+
 }
 
 
