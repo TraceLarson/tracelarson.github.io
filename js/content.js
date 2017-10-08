@@ -33,11 +33,11 @@ searchName.addEventListener('keypress', (event) => {
 });
 
 //Event listeners for submitting the form, clearing the input field and the content, if present.
-nav.addEventListener('click', openNav);
+nav.addEventListener('touchstart click', openNav);
 
-searchButton.addEventListener('click', clearContent);
-searchButton.addEventListener('click', getMarvelData);
-searchName.addEventListener('click', clearInputField);
+searchButton.addEventListener('touchstart click', clearContent);
+searchButton.addEventListener('touchstart click', getMarvelData);
+searchName.addEventListener('touchstart click', clearInputField);
 
 
 function getMarvelData() {

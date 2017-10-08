@@ -33,7 +33,7 @@ footer {
   text-align: center; }
 
 img {
-  width: 300px; }
+  width: 100%; }
 
 h1 {
   background: red;
@@ -80,6 +80,10 @@ a {
 
 .openMenu a {
   font-size: 5em; }
+
+@media (max-width: 579px) {
+  .wrapper {
+    width: 100%; } }
 
 header {
   display: flex;
@@ -130,6 +134,10 @@ input {
   background-size: auto 30px; }
   input:focus {
     background-color: black; }
+  @media (max-width: 579px) {
+    input {
+      background-position: left center;
+      height: 50px; } }
 
 button {
   flex: 1 1 auto;
@@ -145,6 +153,9 @@ button {
     background-color: black;
     color: red;
     padding-left: 0; }
+  @media (max-width: 579px) {
+    button {
+      height: 50px; } }
 
 nav ul {
   display: flex;
@@ -197,28 +208,32 @@ nav ul {
   align-content: center;
   background-color: black;
   text-align: center; }
+  @media (max-width: 579px) {
+    #content ul {
+      background: transparent; } }
   #content ul li {
+    width: 30%;
     display: flex;
     flex-flow: column nowrap;
     color: grey;
     margin: 1% 1%;
     text-align: center;
-    background-color: black;
-    border: 1px solid green; }
+    background-color: black; }
     @media (max-width: 579px) {
       #content ul li {
-        border: 3px solid green;
         flex-flow: row nowrap;
         justify-content: flex-start;
-        flex-basis: 100%; }
+        flex-basis: 100%;
+        box-shadow: 10px 10px 5px #888888; }
         #content ul li a {
           flex: 2;
-          border: 3px solid blue; }
+          align-self: center; }
         #content ul li .anchorImage {
-          flex: 1; }
+          flex: 1;
+          padding-top: 1%; }
         #content ul li img {
-          width: 100%;
-          border: 3px solid purple; } }
+          width: 70%; } }
 
 .wrapper h2 {
+  max-width: 1000px;
   text-align: center; }

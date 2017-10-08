@@ -6,6 +6,10 @@
 
 .wrapper {
   @extend %autoMargin;
+
+  @include mq(small){
+    width: 100%;
+  }
 }
 
 header {
@@ -15,7 +19,6 @@ header {
   min-height: 200px;
   height: 563px;
   box-shadow: 10px 10px 5px #888888;
-
 }
 
 #nav-header{
@@ -42,6 +45,7 @@ form {
   flex-flow: row nowrap;
   width: 80%;
   margin: auto;
+
 }
 
 label {
@@ -51,18 +55,25 @@ label {
 
 input {
   display: flex;
-  //flex: 1 1 auto;
   @include input-form($form-width, $form-height);
   background-image: url(../search-assets/search.png);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: auto 30px;
 
+  @include mq(small){
+    background-position: left center;
+    height: 50px;
+  }
+
 }
 
 button {
   flex: 1 1 auto;
   @include button($button-width, $button-height);
+  @include mq(small){
+    height: 50px;
+  }
 }
 
 nav {
@@ -130,43 +141,40 @@ nav {
     align-content: center;
     background-color: $background-color;
     text-align: center;
-
+    @include mq(small){
+      background: $small-background-color;
+    }
 
     li {
+      width: 30%;
       display: flex;
       flex-flow: column nowrap;
       color: $light-font-color;
       margin: 1% 1%;
       text-align: center;
       background-color: $background-color;
-      border: 1px solid green;
-
       @include mq(small){
-        border: 3px solid green;
         flex-flow: row nowrap;
         justify-content: flex-start;
         flex-basis: 100%;
+        box-shadow: 10px 10px 5px #888888;
         a{
           flex: 2;
-          border: 3px solid blue;
+          align-self: center;
         }
         .anchorImage{
           flex: 1;
+          padding-top: 1%;
         }
         img{
-          width: 100%;
-          border: 3px solid purple;
+          width: 70%;
         }
       }
     }
-
   }
-
-
 }
 
-
-
 .wrapper h2 {
+  max-width: 1000px;
   text-align: center;
 }
